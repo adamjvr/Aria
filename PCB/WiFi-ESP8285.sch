@@ -338,8 +338,6 @@ Wire Wire Line
 	3725 2850 4125 2850
 Wire Wire Line
 	4125 2850 4525 2850
-Wire Wire Line
-	4525 2850 4525 2850
 Connection ~ 4525 2850
 Connection ~ 4125 2850
 Connection ~ 3725 2850
@@ -385,9 +383,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 4250 10375 4250
 Wire Wire Line
-	5400 4350 3500 4350
+	1150 4350 3500 4350
 Wire Wire Line
-	3500 4350 1150 4350
+	3500 4350 5400 4350
 Wire Wire Line
 	3500 4800 3500 4350
 Connection ~ 3500 4350
@@ -506,63 +504,63 @@ $EndComp
 $Comp
 L LTST-C193TBKT-5A LED4
 U 1 1 57EACEB9
-P 4650 3250
-F 0 "LED4" H 4650 2963 60  0000 C CNN
-F 1 "LTST-C193TBKT-5A" H 4650 3069 60  0000 C CNN
-F 2 "PCB_Footprints:LED0603" H 6075 5175 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 6275 5300 60  0001 C CNN
-F 4 "0.06102 @ 6000" H 4500 3450 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 4600 3550 60  0001 C CNN "Date Created"
-F 6 "8 Sept 2016" H 4700 3650 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4800 3750 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 4900 3850 60  0001 C CNN "Height"
-F 9 "Yes" H 5000 3950 60  0001 C CNN "RhoS?"
-F 10 "Lite-On Inc" H 5100 4050 60  0001 C CNN "MFR"
-F 11 "LTST-C193TBKT-5A" H 5200 4150 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5300 4250 60  0001 C CNN "Mounting"
-F 13 "2" H 5400 4350 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5500 4450 60  0001 C CNN "Status"
-F 15 "N/A" H 5600 4550 60  0001 C CNN "Tolerance"
-F 16 "0603 LED" H 5700 4650 60  0001 C CNN "Type"
-F 17 "2.8V Forward Voltage" H 5800 4750 60  0001 C CNN "Voltage"
-F 18 "N/A" H 5900 4850 60  0001 C CNN "Wattage"
-F 19 "N/A" H 6000 4950 60  0001 C CNN "Component-Value"
-F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 6100 5050 60  0001 C CNN "Description"
-	1    4650 3250
+P 3875 3250
+F 0 "LED4" H 3875 2963 60  0000 C CNN
+F 1 "LTST-C193TBKT-5A" H 3875 3069 60  0000 C CNN
+F 2 "PCB_Footprints:LED0603" H 5300 5175 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 5500 5300 60  0001 C CNN
+F 4 "0.06102 @ 6000" H 3725 3450 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 3825 3550 60  0001 C CNN "Date Created"
+F 6 "8 Sept 2016" H 3925 3650 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 4025 3750 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 4125 3850 60  0001 C CNN "Height"
+F 9 "Yes" H 4225 3950 60  0001 C CNN "RhoS?"
+F 10 "Lite-On Inc" H 4325 4050 60  0001 C CNN "MFR"
+F 11 "LTST-C193TBKT-5A" H 4425 4150 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 4525 4250 60  0001 C CNN "Mounting"
+F 13 "2" H 4625 4350 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 4725 4450 60  0001 C CNN "Status"
+F 15 "N/A" H 4825 4550 60  0001 C CNN "Tolerance"
+F 16 "0603 LED" H 4925 4650 60  0001 C CNN "Type"
+F 17 "2.8V Forward Voltage" H 5025 4750 60  0001 C CNN "Voltage"
+F 18 "N/A" H 5125 4850 60  0001 C CNN "Wattage"
+F 19 "N/A" H 5225 4950 60  0001 C CNN "Component-Value"
+F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 5325 5050 60  0001 C CNN "Description"
+	1    3875 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L RC1005F102CS R21
 U 1 1 57EAD2D3
-P 3925 3250
-F 0 "R21" H 3925 3497 60  0000 C CNN
-F 1 "RC1005F102CS" H 3925 3497 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 3525 3500 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 3625 3700 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 5475 5200 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 3825 3800 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 3925 3900 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4025 4000 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4125 4100 60  0001 C CNN "Height"
-F 9 "Yes" H 4225 4200 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4325 4300 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 4425 4400 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 4525 4500 60  0001 C CNN "Mounting"
-F 13 "2" H 4625 4600 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 4725 4700 60  0001 C CNN "Status"
-F 15 "%" H 4825 4800 60  0001 C CNN "Tolerance"
-F 16 "passive" H 4925 4900 60  0001 C CNN "Type"
-F 17 "N/A" H 5025 5000 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5125 5100 60  0001 C CNN "Wattage"
-F 19 "1k" H 3925 3391 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 5325 5300 60  0001 C CNN "Description"
-	1    3925 3250
+P 4600 3250
+F 0 "R21" H 4600 3497 60  0000 C CNN
+F 1 "RC1005F102CS" H 4600 3497 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 4200 3500 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4300 3700 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 6150 5200 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 4500 3800 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 4600 3900 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 4700 4000 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 4800 4100 60  0001 C CNN "Height"
+F 9 "Yes" H 4900 4200 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 5000 4300 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 5100 4400 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5200 4500 60  0001 C CNN "Mounting"
+F 13 "2" H 5300 4600 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5400 4700 60  0001 C CNN "Status"
+F 15 "%" H 5500 4800 60  0001 C CNN "Tolerance"
+F 16 "passive" H 5600 4900 60  0001 C CNN "Type"
+F 17 "N/A" H 5700 5000 60  0001 C CNN "Voltage"
+F 18 "1/16" H 5800 5100 60  0001 C CNN "Wattage"
+F 19 "1k" H 4600 3391 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 6000 5300 60  0001 C CNN "Description"
+	1    4600 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5400 3250 4900 3250
 Wire Wire Line
-	4225 3250 4400 3250
+	4125 3250 4300 3250
 Wire Wire Line
 	3625 3250 3625 2850
 Connection ~ 3625 2850

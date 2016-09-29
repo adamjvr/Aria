@@ -35,12 +35,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title "Power System - LDO & Solar Battery Charger"
-Date ""
-Rev "Revision 0.2 Alpha"
+Title "Aria"
+Date "2016-09-27"
+Rev "0.1a"
 Comp "GhostPCB"
-Comment1 "Designed by Adam Vadala-Roth"
-Comment2 ""
+Comment1 "Drawn By Adama Vadala-Roth"
+Comment2 "Engineer: Adam Vadala-Roth"
 Comment3 ""
 Comment4 ""
 $EndDescr
