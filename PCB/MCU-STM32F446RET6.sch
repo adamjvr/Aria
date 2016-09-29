@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 4
 Title "Aria"
 Date "2016-09-27"
 Rev "0.1a"
@@ -44,212 +44,212 @@ Comment2 "Engineer: Adam Vadala-Roth"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1100 4675 0    60   BiDi ~ 0
+Text HLabel 2000 4775 0    60   BiDi ~ 0
 ESP_ST_RST
-Text HLabel 10425 4650 2    60   BiDi ~ 0
+Text HLabel 3925 1650 0    60   BiDi ~ 0
 STM_ESP_RST
-Text HLabel 10425 4450 2    60   Output ~ 0
+Text HLabel 3925 1550 0    60   Output ~ 0
 ESP_UTX
-Text HLabel 10425 4550 2    60   Input ~ 0
+Text HLabel 3950 1450 0    60   Input ~ 0
 ESP_URX
-Text HLabel 10425 4775 2    60   Input ~ 0
+Text HLabel 3925 1750 0    60   Input ~ 0
 ESP_PGM_MODE
 Text HLabel 10600 2475 2    60   Input ~ 0
 VBUS
 $Comp
 L CL05B104JP5NNNC C6
 U 1 1 57D3E467
-P 925 7125
-F 0 "C6" V 825 7200 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 975 6975 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 1175 7175 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1175 7175 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 825 7375 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 925 7475 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1025 7575 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1125 7675 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1225 7775 60  0001 C CNN "Height"
-F 9 "Yes" H 1325 7875 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 1425 7975 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 1525 8075 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1625 8175 60  0001 C CNN "Mounting"
-F 13 "2" H 1725 8275 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 1825 8375 60  0001 C CNN "Status"
-F 15 "5%" H 1925 8475 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2025 8575 60  0001 C CNN "Type"
-F 17 "10V" H 2125 8675 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2225 8775 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 975 7300 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2425 8975 60  0001 C CNN "Description"
-	1    925  7125
+P 1825 7225
+F 0 "C6" V 1725 7300 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 1875 7075 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 2075 7275 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2075 7275 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 1725 7475 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 1825 7575 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1925 7675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2025 7775 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2125 7875 60  0001 C CNN "Height"
+F 9 "Yes" H 2225 7975 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2325 8075 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 2425 8175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2525 8275 60  0001 C CNN "Mounting"
+F 13 "2" H 2625 8375 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 2725 8475 60  0001 C CNN "Status"
+F 15 "5%" H 2825 8575 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2925 8675 60  0001 C CNN "Type"
+F 17 "10V" H 3025 8775 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3125 8875 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 1875 7400 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3325 9075 60  0001 C CNN "Description"
+	1    1825 7225
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C7
 U 1 1 57D3E837
-P 1275 7125
-F 0 "C7" V 1175 7200 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 1325 6975 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 1525 7175 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1525 7175 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 1175 7375 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 1275 7475 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1375 7575 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1475 7675 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1575 7775 60  0001 C CNN "Height"
-F 9 "Yes" H 1675 7875 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 1775 7975 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 1875 8075 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1975 8175 60  0001 C CNN "Mounting"
-F 13 "2" H 2075 8275 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 2175 8375 60  0001 C CNN "Status"
-F 15 "5%" H 2275 8475 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2375 8575 60  0001 C CNN "Type"
-F 17 "10V" H 2475 8675 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2575 8775 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 1325 7300 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2775 8975 60  0001 C CNN "Description"
-	1    1275 7125
+P 2175 7225
+F 0 "C7" V 2075 7300 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 2225 7075 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 2425 7275 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2425 7275 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2075 7475 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2175 7575 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2275 7675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2375 7775 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2475 7875 60  0001 C CNN "Height"
+F 9 "Yes" H 2575 7975 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2675 8075 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 2775 8175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2875 8275 60  0001 C CNN "Mounting"
+F 13 "2" H 2975 8375 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3075 8475 60  0001 C CNN "Status"
+F 15 "5%" H 3175 8575 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3275 8675 60  0001 C CNN "Type"
+F 17 "10V" H 3375 8775 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3475 8875 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2225 7400 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3675 9075 60  0001 C CNN "Description"
+	1    2175 7225
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C10
 U 1 1 57D3E897
-P 1625 7125
-F 0 "C10" V 1525 7200 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 1675 6975 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 1875 7175 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1875 7175 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 1525 7375 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 1625 7475 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1725 7575 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1825 7675 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1925 7775 60  0001 C CNN "Height"
-F 9 "Yes" H 2025 7875 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 2125 7975 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 2225 8075 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2325 8175 60  0001 C CNN "Mounting"
-F 13 "2" H 2425 8275 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 2525 8375 60  0001 C CNN "Status"
-F 15 "5%" H 2625 8475 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2725 8575 60  0001 C CNN "Type"
-F 17 "10V" H 2825 8675 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2925 8775 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 1675 7300 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3125 8975 60  0001 C CNN "Description"
-	1    1625 7125
+P 2525 7225
+F 0 "C10" V 2425 7300 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 2575 7075 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 2775 7275 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2775 7275 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2425 7475 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2525 7575 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2625 7675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2725 7775 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2825 7875 60  0001 C CNN "Height"
+F 9 "Yes" H 2925 7975 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 3025 8075 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3125 8175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3225 8275 60  0001 C CNN "Mounting"
+F 13 "2" H 3325 8375 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3425 8475 60  0001 C CNN "Status"
+F 15 "5%" H 3525 8575 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3625 8675 60  0001 C CNN "Type"
+F 17 "10V" H 3725 8775 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3825 8875 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2575 7400 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4025 9075 60  0001 C CNN "Description"
+	1    2525 7225
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C12
 U 1 1 57D3E8FC
-P 1975 7125
-F 0 "C12" V 1875 7200 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 2025 6975 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 2225 7175 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2225 7175 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 1875 7375 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 1975 7475 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 2075 7575 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 2175 7675 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 2275 7775 60  0001 C CNN "Height"
-F 9 "Yes" H 2375 7875 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 2475 7975 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 2575 8075 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2675 8175 60  0001 C CNN "Mounting"
-F 13 "2" H 2775 8275 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 2875 8375 60  0001 C CNN "Status"
-F 15 "5%" H 2975 8475 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 3075 8575 60  0001 C CNN "Type"
-F 17 "10V" H 3175 8675 60  0001 C CNN "Voltage"
-F 18 "N/A" H 3275 8775 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 2025 7300 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3475 8975 60  0001 C CNN "Description"
-	1    1975 7125
+P 2875 7225
+F 0 "C12" V 2775 7300 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 2925 7075 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 3125 7275 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 3125 7275 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2775 7475 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2875 7575 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2975 7675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 3075 7775 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 3175 7875 60  0001 C CNN "Height"
+F 9 "Yes" H 3275 7975 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 3375 8075 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3475 8175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3575 8275 60  0001 C CNN "Mounting"
+F 13 "2" H 3675 8375 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3775 8475 60  0001 C CNN "Status"
+F 15 "5%" H 3875 8575 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3975 8675 60  0001 C CNN "Type"
+F 17 "10V" H 4075 8775 60  0001 C CNN "Voltage"
+F 18 "N/A" H 4175 8875 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2925 7400 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4375 9075 60  0001 C CNN "Description"
+	1    2875 7225
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C4
 U 1 1 57D3E960
-P 725 6425
-F 0 "C4" V 625 6500 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 775 6275 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 975 6475 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 975 6475 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 625 6675 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 725 6775 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 825 6875 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 925 6975 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1025 7075 60  0001 C CNN "Height"
-F 9 "Yes" H 1125 7175 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 1225 7275 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 1325 7375 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1425 7475 60  0001 C CNN "Mounting"
-F 13 "2" H 1525 7575 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 1625 7675 60  0001 C CNN "Status"
-F 15 "5%" H 1725 7775 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 1825 7875 60  0001 C CNN "Type"
-F 17 "10V" H 1925 7975 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2025 8075 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 775 6600 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2225 8275 60  0001 C CNN "Description"
-	1    725  6425
+P 1625 6525
+F 0 "C4" V 1525 6600 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 1675 6375 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 1875 6575 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1875 6575 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 1525 6775 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 1625 6875 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1725 6975 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 1825 7075 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 1925 7175 60  0001 C CNN "Height"
+F 9 "Yes" H 2025 7275 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2125 7375 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 2225 7475 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2325 7575 60  0001 C CNN "Mounting"
+F 13 "2" H 2425 7675 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 2525 7775 60  0001 C CNN "Status"
+F 15 "5%" H 2625 7875 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2725 7975 60  0001 C CNN "Type"
+F 17 "10V" H 2825 8075 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2925 8175 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 1675 6700 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3125 8375 60  0001 C CNN "Description"
+	1    1625 6525
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C9
 U 1 1 57D3E9F9
-P 1525 6425
-F 0 "C9" V 1425 6250 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 1575 6275 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 1775 6475 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1775 6475 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 1425 6675 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 1525 6775 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1625 6875 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1725 6975 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1825 7075 60  0001 C CNN "Height"
-F 9 "Yes" H 1925 7175 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 2025 7275 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 2125 7375 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2225 7475 60  0001 C CNN "Mounting"
-F 13 "2" H 2325 7575 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 2425 7675 60  0001 C CNN "Status"
-F 15 "5%" H 2525 7775 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2625 7875 60  0001 C CNN "Type"
-F 17 "10V" H 2725 7975 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2825 8075 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 1500 6150 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3025 8275 60  0001 C CNN "Description"
-	1    1525 6425
+P 2425 6525
+F 0 "C9" V 2325 6350 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 2475 6375 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 2675 6575 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2675 6575 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2325 6775 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2425 6875 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2525 6975 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2625 7075 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2725 7175 60  0001 C CNN "Height"
+F 9 "Yes" H 2825 7275 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2925 7375 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3025 7475 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3125 7575 60  0001 C CNN "Mounting"
+F 13 "2" H 3225 7675 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3325 7775 60  0001 C CNN "Status"
+F 15 "5%" H 3425 7875 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3525 7975 60  0001 C CNN "Type"
+F 17 "10V" H 3625 8075 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3725 8175 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2400 6250 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3925 8375 60  0001 C CNN "Description"
+	1    2425 6525
 	0    1    1    0   
 $EndComp
 $Comp
 L CL05B104JP5NNNC C13
 U 1 1 57D3EAB5
-P 4450 5725
-F 0 "C13" V 4350 5800 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 4500 5575 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 4700 5775 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 4700 5775 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 4350 5975 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 4450 6075 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4550 6175 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4650 6275 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 4750 6375 60  0001 C CNN "Height"
-F 9 "Yes" H 4850 6475 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4950 6575 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 5050 6675 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5150 6775 60  0001 C CNN "Mounting"
-F 13 "2" H 5250 6875 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 5350 6975 60  0001 C CNN "Status"
-F 15 "5%" H 5450 7075 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 5550 7175 60  0001 C CNN "Type"
-F 17 "10V" H 5650 7275 60  0001 C CNN "Voltage"
-F 18 "N/A" H 5750 7375 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 4500 5900 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 5950 7575 60  0001 C CNN "Description"
-	1    4450 5725
+P 5350 5825
+F 0 "C13" V 5250 5900 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 5400 5675 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 5600 5875 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 5600 5875 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 5250 6075 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 5350 6175 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 5450 6275 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5550 6375 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 5650 6475 60  0001 C CNN "Height"
+F 9 "Yes" H 5750 6575 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 5850 6675 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 5950 6775 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6050 6875 60  0001 C CNN "Mounting"
+F 13 "2" H 6150 6975 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 6250 7075 60  0001 C CNN "Status"
+F 15 "5%" H 6350 7175 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 6450 7275 60  0001 C CNN "Type"
+F 17 "10V" H 6550 7375 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6650 7475 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 5400 6000 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 6850 7675 60  0001 C CNN "Description"
+	1    5350 5825
 	0    1    1    0   
 $EndComp
 $Comp
@@ -395,57 +395,57 @@ $EndComp
 $Comp
 L 20021121-00010C4LF J3
 U 1 1 57D3F2B2
-P 8650 6025
-F 0 "J3" H 8550 6425 60  0000 C CNN
-F 1 "20021121-00010C4LF" H 9000 5725 60  0000 C CNN
-F 2 "PCB_Footprints:20021121-00010C4LF" H 9500 6275 60  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021121.pdf" H 9500 5575 60  0001 C CNN
-F 4 "0.32 @ 15000" H 8650 6525 60  0001 C CNN "Cost"
-F 5 "20 Aug 2016" H 8750 6625 60  0001 C CNN "Date Created "
-F 6 "20 Aug 2016" H 8850 6725 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 8950 6825 60  0001 C CNN "Designer"
-F 8 "5.5mm" H 9050 6925 60  0001 C CNN "Height"
-F 9 "Yes" H 9150 7025 60  0001 C CNN "RHoS?"
-F 10 "Amphenol FCI" H 9250 7125 60  0001 C CNN "MFR"
-F 11 "20021121-00010C4LF" H 9350 7225 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 9450 7325 60  0001 C CNN "Mounting"
-F 13 "10" H 9550 7425 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 9650 7525 60  0001 C CNN "Status"
-F 15 "N/A" H 9750 7625 60  0001 C CNN "Tolerance"
-F 16 "SMT Male Pin Connector, ARM Cortex Debug/JTAG" H 9850 7725 60  0001 C CNN "Type"
-F 17 "200V MAX" H 9950 7825 60  0001 C CNN "Voltage"
-F 18 "N/A" H 10050 7925 60  0001 C CNN "Wattage"
-F 19 "N/A" H 10150 8025 60  0001 C CNN "Component-Value"
-F 20 "Ten Pin header unshrouded SMT ARM Cortex M Debug Port" H 10250 8125 60  0001 C CNN "Description"
-	1    8650 6025
+P 8925 5450
+F 0 "J3" H 8825 5850 60  0000 C CNN
+F 1 "20021121-00010C4LF" H 9275 5150 60  0000 C CNN
+F 2 "PCB_Footprints:20021121-00010C4LF" H 9775 5700 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/20021121.pdf" H 9775 5000 60  0001 C CNN
+F 4 "0.32 @ 15000" H 8925 5950 60  0001 C CNN "Cost"
+F 5 "20 Aug 2016" H 9025 6050 60  0001 C CNN "Date Created "
+F 6 "20 Aug 2016" H 9125 6150 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9225 6250 60  0001 C CNN "Designer"
+F 8 "5.5mm" H 9325 6350 60  0001 C CNN "Height"
+F 9 "Yes" H 9425 6450 60  0001 C CNN "RHoS?"
+F 10 "Amphenol FCI" H 9525 6550 60  0001 C CNN "MFR"
+F 11 "20021121-00010C4LF" H 9625 6650 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 9725 6750 60  0001 C CNN "Mounting"
+F 13 "10" H 9825 6850 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 9925 6950 60  0001 C CNN "Status"
+F 15 "N/A" H 10025 7050 60  0001 C CNN "Tolerance"
+F 16 "SMT Male Pin Connector, ARM Cortex Debug/JTAG" H 10125 7150 60  0001 C CNN "Type"
+F 17 "200V MAX" H 10225 7250 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10325 7350 60  0001 C CNN "Wattage"
+F 19 "N/A" H 10425 7450 60  0001 C CNN "Component-Value"
+F 20 "Ten Pin header unshrouded SMT ARM Cortex M Debug Port" H 10525 7550 60  0001 C CNN "Description"
+	1    8925 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L BLM15HG601SN1D FB1
 U 1 1 57D3F3A4
-P 1125 6175
-F 0 "FB1" H 1425 6300 60  0000 C CNN
-F 1 "BLM15HG601SN1D" H 1100 6375 60  0000 C CNN
-F 2 "PCB_Footprints:BLM15HG601SN1D" H 675 6225 60  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0101BLM15H.pdf" H 775 6325 60  0001 C CNN
-F 4 "0.05090 @ 10000" H 875 6425 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 975 6525 60  0001 C CNN "Date Created "
-F 6 "8 Sept 2016" H 1075 6625 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1175 6725 60  0001 C CNN "Designer "
-F 8 "0.4mm" H 1275 6825 60  0001 C CNN "Height"
-F 9 "Yest" H 1375 6925 60  0001 C CNN "RHoS?"
-F 10 "Murata Electronics North America" H 1475 7025 60  0001 C CNN "MFR"
-F 11 "BLM15HG601SN1D" H 1575 7125 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1675 7225 60  0001 C CNN "Mounting"
-F 13 "2" H 1775 7325 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1875 7425 60  0001 C CNN "Status"
-F 15 "N/A" H 1975 7525 60  0001 C CNN "Tolerance"
-F 16 "Ferrite  Beard 300mA" H 2075 7625 60  0001 C CNN "Type"
-F 17 "N/A" H 2175 7725 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2275 7825 60  0001 C CNN "Wattage"
-F 19 "600 ohm 300mA" H 2375 7925 60  0001 C CNN "Component-Value"
-F 20 "FERRITE BEAD 600 OHM 0402 1LN" H 2475 8025 60  0001 C CNN "Description"
-	1    1125 6175
+P 2025 6275
+F 0 "FB1" H 2325 6400 60  0000 C CNN
+F 1 "BLM15HG601SN1D" H 2000 6475 60  0000 C CNN
+F 2 "PCB_Footprints:BLM15HG601SN1D" H 1575 6325 60  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0101BLM15H.pdf" H 1675 6425 60  0001 C CNN
+F 4 "0.05090 @ 10000" H 1775 6525 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 1875 6625 60  0001 C CNN "Date Created "
+F 6 "8 Sept 2016" H 1975 6725 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2075 6825 60  0001 C CNN "Designer "
+F 8 "0.4mm" H 2175 6925 60  0001 C CNN "Height"
+F 9 "Yest" H 2275 7025 60  0001 C CNN "RHoS?"
+F 10 "Murata Electronics North America" H 2375 7125 60  0001 C CNN "MFR"
+F 11 "BLM15HG601SN1D" H 2475 7225 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2575 7325 60  0001 C CNN "Mounting"
+F 13 "2" H 2675 7425 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2775 7525 60  0001 C CNN "Status"
+F 15 "N/A" H 2875 7625 60  0001 C CNN "Tolerance"
+F 16 "Ferrite  Beard 300mA" H 2975 7725 60  0001 C CNN "Type"
+F 17 "N/A" H 3075 7825 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3175 7925 60  0001 C CNN "Wattage"
+F 19 "600 ohm 300mA" H 3275 8025 60  0001 C CNN "Component-Value"
+F 20 "FERRITE BEAD 600 OHM 0402 1LN" H 3375 8125 60  0001 C CNN "Description"
+	1    2025 6275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -479,29 +479,29 @@ $EndComp
 $Comp
 L CL05C090CB5NNNC C8
 U 1 1 57D3F68C
-P 1400 5550
-F 0 "C8" V 1350 5725 60  0000 C CNN
-F 1 "CL05C090CB5NNNC" H 1100 5400 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 650 5600 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 750 5700 60  0001 C CNN
-F 4 "0.00550 @ 5000" H 850 5800 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 950 5900 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1050 6000 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 1150 6100 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 1250 6200 60  0001 C CNN "Height"
-F 9 "Yes" H 1350 6300 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 1450 6400 60  0001 C CNN "MFR"
-F 11 "CL05C090CB5NNNC" H 1550 6500 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1650 6600 60  0001 C CNN "Mounting"
-F 13 "2" H 1750 6700 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1850 6800 60  0001 C CNN "Status"
-F 15 "0.25pF" H 1950 6900 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2050 7000 60  0001 C CNN "Type"
-F 17 "50V" H 2150 7100 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2700 7100 60  0001 C CNN "Wattage"
-F 19 "9pF" V 1450 5750 60  0000 C CNN "Componen-Value"
-F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2900 7300 60  0001 C CNN "Description"
-	1    1400 5550
+P 2300 5650
+F 0 "C8" V 2250 5825 60  0000 C CNN
+F 1 "CL05C090CB5NNNC" H 2000 5500 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 1550 5700 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 1650 5800 60  0001 C CNN
+F 4 "0.00550 @ 5000" H 1750 5900 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 1850 6000 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1950 6100 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 2050 6200 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2150 6300 60  0001 C CNN "Height"
+F 9 "Yes" H 2250 6400 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 2350 6500 60  0001 C CNN "MFR"
+F 11 "CL05C090CB5NNNC" H 2450 6600 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2550 6700 60  0001 C CNN "Mounting"
+F 13 "2" H 2650 6800 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2750 6900 60  0001 C CNN "Status"
+F 15 "0.25pF" H 2850 7000 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2950 7100 60  0001 C CNN "Type"
+F 17 "50V" H 3050 7200 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3600 7200 60  0001 C CNN "Wattage"
+F 19 "9pF" V 2350 5850 60  0000 C CNN "Componen-Value"
+F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3800 7400 60  0001 C CNN "Description"
+	1    2300 5650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -535,29 +535,29 @@ $EndComp
 $Comp
 L RC1005F102CS R14
 U 1 1 57D3F944
-P 9475 5375
-F 0 "R14" V 9450 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 9475 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 9075 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9175 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 11025 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 9375 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 9475 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9575 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 9675 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 9775 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 9875 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 9975 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10075 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 10175 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10275 6825 60  0001 C CNN "Status"
-F 15 "%" H 10375 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 10475 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 10575 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 10675 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 9525 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 10875 7425 60  0001 C CNN "Description"
-	1    9475 5375
+P 9750 4800
+F 0 "R14" V 9725 4925 60  0000 C CNN
+F 1 "RC1005F102CS" H 9750 4650 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 9350 5050 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9450 5250 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 11300 6750 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 9650 5350 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 9750 5450 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9850 5550 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 9950 5650 60  0001 C CNN "Height"
+F 9 "Yes" H 10050 5750 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 10150 5850 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 10250 5950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 10350 6050 60  0001 C CNN "Mounting"
+F 13 "2" H 10450 6150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10550 6250 60  0001 C CNN "Status"
+F 15 "%" H 10650 6350 60  0001 C CNN "Tolerance"
+F 16 "passive" H 10750 6450 60  0001 C CNN "Type"
+F 17 "N/A" H 10850 6550 60  0001 C CNN "Voltage"
+F 18 "1/16" H 10950 6650 60  0001 C CNN "Wattage"
+F 19 "1k" V 9800 4925 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11150 6850 60  0001 C CNN "Description"
+	1    9750 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -591,29 +591,29 @@ $EndComp
 $Comp
 L RC1005F103CS R7
 U 1 1 57D3FC9A
-P 4225 6500
-F 0 "R7" V 4175 6650 60  0000 C CNN
-F 1 "RC1005F103CS" H 4225 6350 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 3825 6750 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 3925 6950 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 5775 8450 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 4125 7050 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4225 7150 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4325 7250 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4425 7350 60  0001 C CNN "Height"
-F 9 "Yes" H 4525 7450 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4625 7550 60  0001 C CNN "MFR"
-F 11 "RC1005F103CS" H 4725 7650 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 4825 7750 60  0001 C CNN "Mounting"
-F 13 "2" H 4925 7850 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5025 7950 60  0001 C CNN "Status"
-F 15 "1%" H 5125 8050 60  0001 C CNN "Tolerance"
-F 16 "passive" H 5225 8150 60  0001 C CNN "Type"
-F 17 "N/A" H 5325 8250 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5425 8350 60  0001 C CNN "Wattage"
-F 19 "10k" V 4275 6675 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 5625 8550 60  0001 C CNN "Description"
-	1    4225 6500
+P 5125 6600
+F 0 "R7" V 5075 6750 60  0000 C CNN
+F 1 "RC1005F103CS" H 5125 6450 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 4725 6850 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4825 7050 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 6675 8550 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 5025 7150 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 5125 7250 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5225 7350 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5325 7450 60  0001 C CNN "Height"
+F 9 "Yes" H 5425 7550 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 5525 7650 60  0001 C CNN "MFR"
+F 11 "RC1005F103CS" H 5625 7750 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5725 7850 60  0001 C CNN "Mounting"
+F 13 "2" H 5825 7950 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 5925 8050 60  0001 C CNN "Status"
+F 15 "1%" H 6025 8150 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6125 8250 60  0001 C CNN "Type"
+F 17 "N/A" H 6225 8350 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6325 8450 60  0001 C CNN "Wattage"
+F 19 "10k" V 5175 6775 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 10K OHM 1% 1/16W 0402" H 6525 8650 60  0001 C CNN "Description"
+	1    5125 6600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -647,29 +647,29 @@ $EndComp
 $Comp
 L B3U-1000P SW1
 U 1 1 57D40112
-P 4750 5425
-F 0 "SW1" H 4950 5500 60  0000 C CNN
-F 1 "B3U-1000P" H 4750 5325 60  0001 C CNN
-F 2 "PCB_Footprints:B3U-1000P" H 4400 5425 60  0001 C CNN
-F 3 "" H 4500 5525 60  0001 C CNN
-F 4 "0" H 4600 5625 60  0001 C CNN "Cost"
-F 5 "6 Sept 2016" H 4700 5725 60  0001 C CNN "Date Created "
-F 6 "6 Sept 2016" H 4800 5825 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4900 5925 60  0001 C CNN "Designer"
-F 8 "0" H 5000 6025 60  0001 C CNN "Height"
-F 9 "Yes" H 5100 6125 60  0001 C CNN "RHoS?"
-F 10 "OMRON" H 5200 6225 60  0001 C CNN "MFR"
-F 11 "B3U-1000P" H 5300 6325 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5400 6425 60  0001 C CNN "Mounting"
-F 13 "2" H 5500 6525 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5600 6625 60  0001 C CNN "Status"
-F 15 "%" H 5700 6725 60  0001 C CNN "Tolerance"
-F 16 "Switch Momentary" H 5800 6825 60  0001 C CNN "Type"
-F 17 "50V" H 5900 6925 60  0001 C CNN "Voltage"
-F 18 "N/A" H 6000 7025 60  0001 C CNN "Wattage"
-F 19 "N/A" H 6100 7125 60  0001 C CNN "Component-Value"
-F 20 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 6200 7225 60  0001 C CNN "Description"
-	1    4750 5425
+P 5650 5125
+F 0 "SW1" H 5700 5025 60  0000 C CNN
+F 1 "B3U-1000P" H 5650 5025 60  0001 C CNN
+F 2 "PCB_Footprints:B3U-1000P" H 5300 5125 60  0001 C CNN
+F 3 "" H 5400 5225 60  0001 C CNN
+F 4 "0" H 5500 5325 60  0001 C CNN "Cost"
+F 5 "6 Sept 2016" H 5600 5425 60  0001 C CNN "Date Created "
+F 6 "6 Sept 2016" H 5700 5525 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5800 5625 60  0001 C CNN "Designer"
+F 8 "0" H 5900 5725 60  0001 C CNN "Height"
+F 9 "Yes" H 6000 5825 60  0001 C CNN "RHoS?"
+F 10 "OMRON" H 6100 5925 60  0001 C CNN "MFR"
+F 11 "B3U-1000P" H 6200 6025 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 6300 6125 60  0001 C CNN "Mounting"
+F 13 "2" H 6400 6225 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6500 6325 60  0001 C CNN "Status"
+F 15 "%" H 6600 6425 60  0001 C CNN "Tolerance"
+F 16 "Switch Momentary" H 6700 6525 60  0001 C CNN "Type"
+F 17 "50V" H 6800 6625 60  0001 C CNN "Voltage"
+F 18 "N/A" H 6900 6725 60  0001 C CNN "Wattage"
+F 19 "N/A" H 7000 6825 60  0001 C CNN "Component-Value"
+F 20 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 7100 6925 60  0001 C CNN "Description"
+	1    5650 5125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -728,181 +728,181 @@ $EndComp
 $Comp
 L STM32F446RET6_-_TQFP64 U3
 U 2 1 57D4353B
-P 2375 7325
-F 0 "U3" H 2250 9325 60  0000 C CNN
-F 1 "STM32F446RET6_-_TQFP64" H 3050 9325 60  0000 C CNN
-F 2 "PCB_Footprints:STM32F446RET6" H 1875 6675 60  0001 C CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf" H 4175 10175 60  0001 C CNN
-F 4 "4.87350 @ 1000" H 1875 8775 60  0001 C CNN "Cost"
-F 5 "19 Aug 2016" H 1975 8875 60  0001 C CNN "Date Created"
-F 6 "19 Aug 2016" H 2075 8975 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 2175 9075 60  0001 C CNN "Designer"
-F 8 "1.6mm" H 2275 9175 60  0001 C CNN "Height"
-F 9 "Yes" H 2375 9275 60  0001 C CNN "RHoS?"
-F 10 "ST Microelectronics" H 2475 9375 60  0001 C CNN "MFR"
-F 11 "STM32F446RET6" H 2575 9475 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2675 9575 60  0001 C CNN "Mounting"
-F 13 "64" H 2775 9675 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 2875 9775 60  0001 C CNN "Status"
-F 15 "N/A" H 2975 9875 60  0001 C CNN "Tolerance"
-F 16 "ARM Cortex M4 Microcontroller" H 3075 9975 60  0001 C CNN "Type"
-F 17 "1.8-3.3V" H 3175 10075 60  0001 C CNN "Voltage"
-	2    2375 7325
+P 3275 7425
+F 0 "U3" H 3150 9425 60  0000 C CNN
+F 1 "STM32F446RET6_-_TQFP64" H 3950 9425 60  0000 C CNN
+F 2 "PCB_Footprints:STM32F446RET6" H 2775 6775 60  0001 C CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf" H 5075 10275 60  0001 C CNN
+F 4 "4.87350 @ 1000" H 2775 8875 60  0001 C CNN "Cost"
+F 5 "19 Aug 2016" H 2875 8975 60  0001 C CNN "Date Created"
+F 6 "19 Aug 2016" H 2975 9075 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 3075 9175 60  0001 C CNN "Designer"
+F 8 "1.6mm" H 3175 9275 60  0001 C CNN "Height"
+F 9 "Yes" H 3275 9375 60  0001 C CNN "RHoS?"
+F 10 "ST Microelectronics" H 3375 9475 60  0001 C CNN "MFR"
+F 11 "STM32F446RET6" H 3475 9575 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3575 9675 60  0001 C CNN "Mounting"
+F 13 "64" H 3675 9775 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3775 9875 60  0001 C CNN "Status"
+F 15 "N/A" H 3875 9975 60  0001 C CNN "Tolerance"
+F 16 "ARM Cortex M4 Microcontroller" H 3975 10075 60  0001 C CNN "Type"
+F 17 "1.8-3.3V" H 4075 10175 60  0001 C CNN "Voltage"
+	2    3275 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR11
 U 1 1 57D43B63
-P 1125 6625
-F 0 "#PWR11" H 1125 6375 50  0001 C CNN
-F 1 "GND" H 1125 6475 50  0000 C CNN
-F 2 "" H 1125 6625 50  0000 C CNN
-F 3 "" H 1125 6625 50  0000 C CNN
-	1    1125 6625
+P 2025 6725
+F 0 "#PWR11" H 2025 6475 50  0001 C CNN
+F 1 "GND" H 2025 6575 50  0000 C CNN
+F 2 "" H 2025 6725 50  0000 C CNN
+F 3 "" H 2025 6725 50  0000 C CNN
+	1    2025 6725
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR12
 U 1 1 57D43E04
-P 1450 7325
-F 0 "#PWR12" H 1450 7075 50  0001 C CNN
-F 1 "GND" H 1450 7175 50  0000 C CNN
-F 2 "" H 1450 7325 50  0000 C CNN
-F 3 "" H 1450 7325 50  0000 C CNN
-	1    1450 7325
+P 2350 7425
+F 0 "#PWR12" H 2350 7175 50  0001 C CNN
+F 1 "GND" H 2350 7275 50  0000 C CNN
+F 2 "" H 2350 7425 50  0000 C CNN
+F 3 "" H 2350 7425 50  0000 C CNN
+	1    2350 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR8
 U 1 1 57D443BB
-P 575 6175
-F 0 "#PWR8" H 575 6025 50  0001 C CNN
-F 1 "+3.3V" H 575 6315 50  0000 C CNN
-F 2 "" H 575 6175 50  0000 C CNN
-F 3 "" H 575 6175 50  0000 C CNN
-	1    575  6175
+P 1475 6275
+F 0 "#PWR8" H 1475 6125 50  0001 C CNN
+F 1 "+3.3V" H 1475 6415 50  0000 C CNN
+F 2 "" H 1475 6275 50  0000 C CNN
+F 3 "" H 1475 6275 50  0000 C CNN
+	1    1475 6275
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR9
 U 1 1 57D444DD
-P 575 6875
-F 0 "#PWR9" H 575 6725 50  0001 C CNN
-F 1 "+3.3V" H 575 7015 50  0000 C CNN
-F 2 "" H 575 6875 50  0000 C CNN
-F 3 "" H 575 6875 50  0000 C CNN
-	1    575  6875
+P 1475 6975
+F 0 "#PWR9" H 1475 6825 50  0001 C CNN
+F 1 "+3.3V" H 1475 7115 50  0000 C CNN
+F 2 "" H 1475 6975 50  0000 C CNN
+F 3 "" H 1475 6975 50  0000 C CNN
+	1    1475 6975
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR18
 U 1 1 57D449FF
-P 5125 5875
-F 0 "#PWR18" H 5125 5625 50  0001 C CNN
-F 1 "GND" H 5125 5725 50  0000 C CNN
-F 2 "" H 5125 5875 50  0000 C CNN
-F 3 "" H 5125 5875 50  0000 C CNN
-	1    5125 5875
+P 6025 5575
+F 0 "#PWR18" H 6025 5325 50  0001 C CNN
+F 1 "GND" H 6025 5425 50  0000 C CNN
+F 2 "" H 6025 5575 50  0000 C CNN
+F 3 "" H 6025 5575 50  0000 C CNN
+	1    6025 5575
 	1    0    0    -1  
 $EndComp
 $Comp
 L RC1005F102CS R8
 U 1 1 57D45682
-P 4450 5175
-F 0 "R8" V 4425 5300 60  0000 C CNN
-F 1 "RC1005F102CS" H 4450 5025 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 4050 5425 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 4150 5625 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 6000 7125 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 4350 5725 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 4450 5825 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 4550 5925 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 4650 6025 60  0001 C CNN "Height"
-F 9 "Yes" H 4750 6125 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 4850 6225 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 4950 6325 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 5050 6425 60  0001 C CNN "Mounting"
-F 13 "2" H 5150 6525 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 5250 6625 60  0001 C CNN "Status"
-F 15 "%" H 5350 6725 60  0001 C CNN "Tolerance"
-F 16 "passive" H 5450 6825 60  0001 C CNN "Type"
-F 17 "N/A" H 5550 6925 60  0001 C CNN "Voltage"
-F 18 "1/16" H 5650 7025 60  0001 C CNN "Wattage"
-F 19 "1k" V 4500 5300 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 5850 7225 60  0001 C CNN "Description"
-	1    4450 5175
+P 5350 5275
+F 0 "R8" V 5325 5400 60  0000 C CNN
+F 1 "RC1005F102CS" H 5350 5125 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 4950 5525 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 5050 5725 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 6900 7225 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 5250 5825 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 5350 5925 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 5450 6025 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 5550 6125 60  0001 C CNN "Height"
+F 9 "Yes" H 5650 6225 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 5750 6325 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 5850 6425 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 5950 6525 60  0001 C CNN "Mounting"
+F 13 "2" H 6050 6625 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 6150 6725 60  0001 C CNN "Status"
+F 15 "%" H 6250 6825 60  0001 C CNN "Tolerance"
+F 16 "passive" H 6350 6925 60  0001 C CNN "Type"
+F 17 "N/A" H 6450 7025 60  0001 C CNN "Voltage"
+F 18 "1/16" H 6550 7125 60  0001 C CNN "Wattage"
+F 19 "1k" V 5400 5400 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 6750 7325 60  0001 C CNN "Description"
+	1    5350 5275
 	0    1    1    0   
 $EndComp
 $Comp
 L +3.3V #PWR17
 U 1 1 57D45F91
-P 4450 4875
-F 0 "#PWR17" H 4450 4725 50  0001 C CNN
-F 1 "+3.3V" H 4450 5015 50  0000 C CNN
-F 2 "" H 4450 4875 50  0000 C CNN
-F 3 "" H 4450 4875 50  0000 C CNN
-	1    4450 4875
+P 5350 4975
+F 0 "#PWR17" H 5350 4825 50  0001 C CNN
+F 1 "+3.3V" H 5350 5115 50  0000 C CNN
+F 2 "" H 5350 4975 50  0000 C CNN
+F 3 "" H 5350 4975 50  0000 C CNN
+	1    5350 4975
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR15
 U 1 1 57D46AC6
-P 3825 7325
-F 0 "#PWR15" H 3825 7075 50  0001 C CNN
-F 1 "GND" H 3825 7175 50  0000 C CNN
-F 2 "" H 3825 7325 50  0000 C CNN
-F 3 "" H 3825 7325 50  0000 C CNN
-	1    3825 7325
+P 4725 7425
+F 0 "#PWR15" H 4725 7175 50  0001 C CNN
+F 1 "GND" H 4725 7275 50  0000 C CNN
+F 2 "" H 4725 7425 50  0000 C CNN
+F 3 "" H 4725 7425 50  0000 C CNN
+	1    4725 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR16
 U 1 1 57D47BC2
-P 4225 7325
-F 0 "#PWR16" H 4225 7075 50  0001 C CNN
-F 1 "GND" H 4225 7175 50  0000 C CNN
-F 2 "" H 4225 7325 50  0000 C CNN
-F 3 "" H 4225 7325 50  0000 C CNN
-	1    4225 7325
+P 5125 7425
+F 0 "#PWR16" H 5125 7175 50  0001 C CNN
+F 1 "GND" H 5125 7275 50  0000 C CNN
+F 2 "" H 5125 7425 50  0000 C CNN
+F 3 "" H 5125 7425 50  0000 C CNN
+	1    5125 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L CL05C090CB5NNNC C5
 U 1 1 57D48EF3
-P 750 5550
-F 0 "C5" V 700 5350 60  0000 C CNN
-F 1 "CL05C090CB5NNNC" H 450 5400 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 0   5600 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 100 5700 60  0001 C CNN
-F 4 "0.00550 @ 5000" H 200 5800 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 300 5900 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 400 6000 60  0001 C CNN "Date Modifed"
-F 7 "Adam Vadala-Roth" H 500 6100 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 600 6200 60  0001 C CNN "Height"
-F 9 "Yes" H 700 6300 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 800 6400 60  0001 C CNN "MFR"
-F 11 "CL05C090CB5NNNC" H 900 6500 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 1000 6600 60  0001 C CNN "Mounting"
-F 13 "2" H 1100 6700 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 1200 6800 60  0001 C CNN "Status"
-F 15 "0.25pF" H 1300 6900 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 1400 7000 60  0001 C CNN "Type"
-F 17 "50V" H 1500 7100 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2050 7100 60  0001 C CNN "Wattage"
-F 19 "9pF" V 800 5375 60  0000 C CNN "Componen-Value"
-F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2250 7300 60  0001 C CNN "Description"
-	1    750  5550
+P 1650 5650
+F 0 "C5" V 1600 5450 60  0000 C CNN
+F 1 "CL05C090CB5NNNC" H 1350 5500 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 900 5700 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05C090CB5NNNC.pdf" H 1000 5800 60  0001 C CNN
+F 4 "0.00550 @ 5000" H 1100 5900 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 1200 6000 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 1300 6100 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 1400 6200 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 1500 6300 60  0001 C CNN "Height"
+F 9 "Yes" H 1600 6400 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 1700 6500 60  0001 C CNN "MFR"
+F 11 "CL05C090CB5NNNC" H 1800 6600 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 1900 6700 60  0001 C CNN "Mounting"
+F 13 "2" H 2000 6800 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2100 6900 60  0001 C CNN "Status"
+F 15 "0.25pF" H 2200 7000 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 2300 7100 60  0001 C CNN "Type"
+F 17 "50V" H 2400 7200 60  0001 C CNN "Voltage"
+F 18 "N/A" H 2950 7200 60  0001 C CNN "Wattage"
+F 19 "9pF" V 1700 5475 60  0000 C CNN "Componen-Value"
+F 20 "9pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3150 7400 60  0001 C CNN "Description"
+	1    1650 5650
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR10
 U 1 1 57D49635
-P 1075 5700
-F 0 "#PWR10" H 1075 5450 50  0001 C CNN
-F 1 "GND" H 1075 5550 50  0000 C CNN
-F 2 "" H 1075 5700 50  0000 C CNN
-F 3 "" H 1075 5700 50  0000 C CNN
-	1    1075 5700
+P 1975 5800
+F 0 "#PWR10" H 1975 5550 50  0001 C CNN
+F 1 "GND" H 1975 5650 50  0000 C CNN
+F 2 "" H 1975 5800 50  0000 C CNN
+F 3 "" H 1975 5800 50  0000 C CNN
+	1    1975 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -947,40 +947,40 @@ $EndComp
 $Comp
 L CL05B104JP5NNNC C11
 U 1 1 57D4BBD2
-P 1725 6100
-F 0 "C11" V 1550 6175 60  0000 C CNN
-F 1 "CL05B104JP5NNNC" H 1775 5950 60  0001 C CNN
-F 2 "PCB_Footprints:C0402" H 1975 6150 60  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 1975 6150 60  0001 C CNN
-F 4 "$0.00903 @ 5000" H 1625 6350 60  0001 C CNN "Cost"
-F 5 "4 Sept 2016" H 1725 6450 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 1825 6550 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1925 6650 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 2025 6750 60  0001 C CNN "Height"
-F 9 "Yes" H 2125 6850 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 2225 6950 60  0001 C CNN "MFR"
-F 11 "CL05B104JP5NNNC" H 2325 7050 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2425 7150 60  0001 C CNN "Mounting"
-F 13 "2" H 2525 7250 60  0001 C CNN "Pint Count#"
-F 14 "Active" H 2625 7350 60  0001 C CNN "Status"
-F 15 "5%" H 2725 7450 60  0001 C CNN "Tolerance"
-F 16 "Ceramic Capacitor 0402" H 2825 7550 60  0001 C CNN "Type"
-F 17 "10V" H 2925 7650 60  0001 C CNN "Voltage"
-F 18 "N/A" H 3025 7750 60  0001 C CNN "Wattage"
-F 19 "0.10uF" V 1625 6275 60  0000 C CNN "Component-Value"
-F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3225 7950 60  0001 C CNN "Description"
-	1    1725 6100
+P 2625 6200
+F 0 "C11" V 2450 6275 60  0000 C CNN
+F 1 "CL05B104JP5NNNC" H 2675 6050 60  0001 C CNN
+F 2 "PCB_Footprints:C0402" H 2875 6250 60  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B104JP5NNNC.pdf" H 2875 6250 60  0001 C CNN
+F 4 "$0.00903 @ 5000" H 2525 6450 60  0001 C CNN "Cost"
+F 5 "4 Sept 2016" H 2625 6550 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 2725 6650 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2825 6750 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 2925 6850 60  0001 C CNN "Height"
+F 9 "Yes" H 3025 6950 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 3125 7050 60  0001 C CNN "MFR"
+F 11 "CL05B104JP5NNNC" H 3225 7150 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3325 7250 60  0001 C CNN "Mounting"
+F 13 "2" H 3425 7350 60  0001 C CNN "Pint Count#"
+F 14 "Active" H 3525 7450 60  0001 C CNN "Status"
+F 15 "5%" H 3625 7550 60  0001 C CNN "Tolerance"
+F 16 "Ceramic Capacitor 0402" H 3725 7650 60  0001 C CNN "Type"
+F 17 "10V" H 3825 7750 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3925 7850 60  0001 C CNN "Wattage"
+F 19 "0.10uF" V 2525 6375 60  0000 C CNN "Component-Value"
+F 20 "0.10µF 10V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4125 8050 60  0001 C CNN "Description"
+	1    2625 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR14
 U 1 1 57D4C07E
-P 1725 6300
-F 0 "#PWR14" H 1725 6050 50  0001 C CNN
-F 1 "GND" H 1725 6150 50  0000 C CNN
-F 2 "" H 1725 6300 50  0000 C CNN
-F 3 "" H 1725 6300 50  0000 C CNN
-	1    1725 6300
+P 2625 6400
+F 0 "#PWR14" H 2625 6150 50  0001 C CNN
+F 1 "GND" H 2625 6250 50  0000 C CNN
+F 2 "" H 2625 6400 50  0000 C CNN
+F 3 "" H 2625 6400 50  0000 C CNN
+	1    2625 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1099,15 +1099,15 @@ $EndComp
 $Comp
 L +3.3V #PWR22
 U 1 1 57D61D70
-P 8300 5075
-F 0 "#PWR22" H 8300 4925 50  0001 C CNN
-F 1 "+3.3V" H 8300 5215 50  0000 C CNN
-F 2 "" H 8300 5075 50  0000 C CNN
-F 3 "" H 8300 5075 50  0000 C CNN
-	1    8300 5075
+P 8575 4500
+F 0 "#PWR22" H 8575 4350 50  0001 C CNN
+F 1 "+3.3V" H 8575 4640 50  0000 C CNN
+F 2 "" H 8575 4500 50  0000 C CNN
+F 3 "" H 8575 4500 50  0000 C CNN
+	1    8575 4500
 	1    0    0    -1  
 $EndComp
-Text Label 9000 5975 0    60   ~ 0
+Text Label 9275 5400 0    60   ~ 0
 SWO_TDO
 Text Label 4025 2950 0    60   ~ 0
 SWO_TDI
@@ -1120,94 +1120,94 @@ NJTRST
 $Comp
 L RC1005F102CS R16
 U 1 1 57D68161
-P 9800 5375
-F 0 "R16" V 9775 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 9800 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 9400 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9500 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 11350 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 9700 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 9800 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 9900 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 10000 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 10100 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 10200 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 10300 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10400 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 10500 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10600 6825 60  0001 C CNN "Status"
-F 15 "%" H 10700 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 10800 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 10900 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 11000 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 9850 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11200 7425 60  0001 C CNN "Description"
-	1    9800 5375
+P 10075 4800
+F 0 "R16" V 10050 4925 60  0000 C CNN
+F 1 "RC1005F102CS" H 10075 4650 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 9675 5050 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9775 5250 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 11625 6750 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 9975 5350 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 10075 5450 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10175 5550 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 10275 5650 60  0001 C CNN "Height"
+F 9 "Yes" H 10375 5750 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 10475 5850 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 10575 5950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 10675 6050 60  0001 C CNN "Mounting"
+F 13 "2" H 10775 6150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10875 6250 60  0001 C CNN "Status"
+F 15 "%" H 10975 6350 60  0001 C CNN "Tolerance"
+F 16 "passive" H 11075 6450 60  0001 C CNN "Type"
+F 17 "N/A" H 11175 6550 60  0001 C CNN "Voltage"
+F 18 "1/16" H 11275 6650 60  0001 C CNN "Wattage"
+F 19 "1k" V 10125 4925 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11475 6850 60  0001 C CNN "Description"
+	1    10075 4800
 	0    1    1    0   
 $EndComp
 $Comp
 L RC1005F102CS R17
 U 1 1 57D68216
-P 10125 5375
-F 0 "R17" V 10100 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 10125 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 9725 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9825 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 11675 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 10025 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 10125 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10225 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 10325 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 10425 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 10525 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 10625 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 10725 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 10825 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 10925 6825 60  0001 C CNN "Status"
-F 15 "%" H 11025 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 11125 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 11225 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 11325 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 10175 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11525 7425 60  0001 C CNN "Description"
-	1    10125 5375
+P 10400 4800
+F 0 "R17" V 10375 4925 60  0000 C CNN
+F 1 "RC1005F102CS" H 10400 4650 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 10000 5050 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 10100 5250 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 11950 6750 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 10300 5350 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 10400 5450 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10500 5550 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 10600 5650 60  0001 C CNN "Height"
+F 9 "Yes" H 10700 5750 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 10800 5850 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 10900 5950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 11000 6050 60  0001 C CNN "Mounting"
+F 13 "2" H 11100 6150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 11200 6250 60  0001 C CNN "Status"
+F 15 "%" H 11300 6350 60  0001 C CNN "Tolerance"
+F 16 "passive" H 11400 6450 60  0001 C CNN "Type"
+F 17 "N/A" H 11500 6550 60  0001 C CNN "Voltage"
+F 18 "1/16" H 11600 6650 60  0001 C CNN "Wattage"
+F 19 "1k" V 10450 4925 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11800 6850 60  0001 C CNN "Description"
+	1    10400 4800
 	0    1    1    0   
 $EndComp
 $Comp
 L RC1005F102CS R18
 U 1 1 57D682DA
-P 10450 5375
-F 0 "R18" V 10425 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 10450 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 10050 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 10150 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 12000 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 10350 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 10450 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10550 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 10650 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 10750 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 10850 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 10950 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 11050 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 11150 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 11250 6825 60  0001 C CNN "Status"
-F 15 "%" H 11350 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 11450 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 11550 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 11650 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 10500 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11850 7425 60  0001 C CNN "Description"
-	1    10450 5375
+P 10725 4800
+F 0 "R18" V 10700 4925 60  0000 C CNN
+F 1 "RC1005F102CS" H 10725 4650 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 10325 5050 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 10425 5250 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 12275 6750 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 10625 5350 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 10725 5450 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10825 5550 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 10925 5650 60  0001 C CNN "Height"
+F 9 "Yes" H 11025 5750 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 11125 5850 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 11225 5950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 11325 6050 60  0001 C CNN "Mounting"
+F 13 "2" H 11425 6150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 11525 6250 60  0001 C CNN "Status"
+F 15 "%" H 11625 6350 60  0001 C CNN "Tolerance"
+F 16 "passive" H 11725 6450 60  0001 C CNN "Type"
+F 17 "N/A" H 11825 6550 60  0001 C CNN "Voltage"
+F 18 "1/16" H 11925 6650 60  0001 C CNN "Wattage"
+F 19 "1k" V 10775 4925 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 12125 6850 60  0001 C CNN "Description"
+	1    10725 4800
 	0    1    1    0   
 $EndComp
-Text Label 9000 5775 0    60   ~ 0
+Text Label 9275 5200 0    60   ~ 0
 SWDIO_TMS
-Text Label 9000 5875 0    60   ~ 0
+Text Label 9275 5300 0    60   ~ 0
 SWCLK_TCK
-Text Label 9000 6075 0    60   ~ 0
+Text Label 9275 5500 0    60   ~ 0
 SWO_TDI
-Text Label 9000 6175 0    60   ~ 0
+Text Label 9275 5600 0    60   ~ 0
 NJTRST
 Text Label 6625 1750 0    60   ~ 0
 SWO_TDO
@@ -1216,40 +1216,40 @@ STM32F446RET6 Main MCU
 $Comp
 L +3.3V #PWR13
 U 1 1 57D91770
-P 1725 5850
-F 0 "#PWR13" H 1725 5700 50  0001 C CNN
-F 1 "+3.3V" H 1725 5990 50  0000 C CNN
-F 2 "" H 1725 5850 50  0000 C CNN
-F 3 "" H 1725 5850 50  0000 C CNN
-	1    1725 5850
+P 2625 5950
+F 0 "#PWR13" H 2625 5800 50  0001 C CNN
+F 1 "+3.3V" H 2625 6090 50  0000 C CNN
+F 2 "" H 2625 5950 50  0000 C CNN
+F 3 "" H 2625 5950 50  0000 C CNN
+	1    2625 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L ABM3B8.000MHZB2T X1
 U 1 1 57D94565
-P 1050 5400
-F 0 "X1" H 1075 5737 60  0000 C CNN
-F 1 "ABM3B8.000MHZB2T" H 1075 5631 60  0000 C CNN
-F 2 "PCB_Footprints:ABM3B8.000MHZB2T" H 850 5500 60  0001 C CNN
-F 3 "http://www.abracon.com/Resonators/abm3b.pdf" H 950 5600 60  0001 C CNN
-F 4 "0.30450 @ 5000" H 1550 6200 60  0001 C CNN "Cost"
-F 5 "19 Aug 2016" H 1150 5800 60  0001 C CNN "Date Created "
-F 6 "14 Sept 2016" H 1250 5900 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 1350 6000 60  0001 C CNN "Designer"
-F 8 "1.10mm" H 1650 6300 60  0001 C CNN "Height"
-F 9 "Yes" H 1750 6400 60  0001 C CNN "RHoS?"
-F 10 "Abracon LLC" H 1850 6500 60  0001 C CNN "MFR"
-F 11 "ABM3B-8.000MHZ-B2-T" H 1950 6600 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 2050 6700 60  0001 C CNN "Mounting"
-F 13 "4" H 1950 6600 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 2050 6700 60  0001 C CNN "Status"
-F 15 "N/A" H 2150 6800 60  0001 C CNN "Tolerance"
-F 16 "Crystal Oscillator" H 2250 6900 60  0001 C CNN "Type"
-F 17 "3.3V" H 2350 7000 60  0001 C CNN "Voltage"
-F 18 "N/A" H 2450 7100 60  0001 C CNN "Wattage"
-F 19 "8MHZ-18pF-Loading" H 2550 7200 60  0001 C CNN "Component-Value"
-F 20 "8MHz ±20ppm Crystal 18pF 200 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC)" H 2650 7300 60  0001 C CNN "Description"
-	1    1050 5400
+P 1950 5500
+F 0 "X1" H 1975 5837 60  0000 C CNN
+F 1 "ABM3B8.000MHZB2T" H 1975 5731 60  0000 C CNN
+F 2 "PCB_Footprints:ABM3B8.000MHZB2T" H 1750 5600 60  0001 C CNN
+F 3 "http://www.abracon.com/Resonators/abm3b.pdf" H 1850 5700 60  0001 C CNN
+F 4 "0.30450 @ 5000" H 2450 6300 60  0001 C CNN "Cost"
+F 5 "19 Aug 2016" H 2050 5900 60  0001 C CNN "Date Created "
+F 6 "14 Sept 2016" H 2150 6000 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 2250 6100 60  0001 C CNN "Designer"
+F 8 "1.10mm" H 2550 6400 60  0001 C CNN "Height"
+F 9 "Yes" H 2650 6500 60  0001 C CNN "RHoS?"
+F 10 "Abracon LLC" H 2750 6600 60  0001 C CNN "MFR"
+F 11 "ABM3B-8.000MHZ-B2-T" H 2850 6700 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 2950 6800 60  0001 C CNN "Mounting"
+F 13 "4" H 2850 6700 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 2950 6800 60  0001 C CNN "Status"
+F 15 "N/A" H 3050 6900 60  0001 C CNN "Tolerance"
+F 16 "Crystal Oscillator" H 3150 7000 60  0001 C CNN "Type"
+F 17 "3.3V" H 3250 7100 60  0001 C CNN "Voltage"
+F 18 "N/A" H 3350 7200 60  0001 C CNN "Wattage"
+F 19 "8MHZ-18pF-Loading" H 3450 7300 60  0001 C CNN "Component-Value"
+F 20 "8MHz ±20ppm Crystal 18pF 200 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC)" H 3550 7400 60  0001 C CNN "Description"
+	1    1950 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1283,15 +1283,15 @@ $EndComp
 $Comp
 L GND #PWR21
 U 1 1 57DDB978
-P 8225 6175
-F 0 "#PWR21" H 8225 5925 50  0001 C CNN
-F 1 "GND" H 8225 6025 50  0000 C CNN
-F 2 "" H 8225 6175 50  0000 C CNN
-F 3 "" H 8225 6175 50  0000 C CNN
-	1    8225 6175
+P 8500 5600
+F 0 "#PWR21" H 8500 5350 50  0001 C CNN
+F 1 "GND" H 8500 5450 50  0000 C CNN
+F 2 "" H 8500 5600 50  0000 C CNN
+F 3 "" H 8500 5600 50  0000 C CNN
+	1    8500 5600
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 6200 2    59   Input ~ 0
+Text HLabel 5725 6225 2    59   Input ~ 0
 ESPTOST_BOOT0
 Text HLabel 10225 1650 2    59   Input ~ 0
 ESPTOST_BOOT1
@@ -1300,70 +1300,70 @@ BAT_VOLT
 $Comp
 L LTST-C193TBKT-5A LED3
 U 1 1 57E101DC
-P 6200 5375
-F 0 "LED3" H 6200 5088 60  0000 C CNN
-F 1 "LTST-C193TBKT-5A" H 6200 5194 60  0000 C CNN
-F 2 "PCB_Footprints:LED0603" H 7625 7300 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 7825 7425 60  0001 C CNN
-F 4 "0.06102 @ 6000" H 6050 5575 60  0001 C CNN "Cost"
-F 5 "8 Sept 2016" H 6150 5675 60  0001 C CNN "Date Created"
-F 6 "8 Sept 2016" H 6250 5775 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 6350 5875 60  0001 C CNN "Designer"
-F 8 "0.55mm" H 6450 5975 60  0001 C CNN "Height"
-F 9 "Yes" H 6550 6075 60  0001 C CNN "RhoS?"
-F 10 "Lite-On Inc" H 6650 6175 60  0001 C CNN "MFR"
-F 11 "LTST-C193TBKT-5A" H 6750 6275 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 6850 6375 60  0001 C CNN "Mounting"
-F 13 "2" H 6950 6475 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 7050 6575 60  0001 C CNN "Status"
-F 15 "N/A" H 7150 6675 60  0001 C CNN "Tolerance"
-F 16 "0603 LED" H 7250 6775 60  0001 C CNN "Type"
-F 17 "2.8V Forward Voltage" H 7350 6875 60  0001 C CNN "Voltage"
-F 18 "N/A" H 7450 6975 60  0001 C CNN "Wattage"
-F 19 "N/A" H 7550 7075 60  0001 C CNN "Component-Value"
-F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 7650 7175 60  0001 C CNN "Description"
-	1    6200 5375
+P 9625 1275
+F 0 "LED3" H 9625 988 60  0000 C CNN
+F 1 "LTST-C193TBKT-5A" H 9625 1094 60  0000 C CNN
+F 2 "PCB_Footprints:LED0603" H 11050 3200 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2004-060/P_100_LTST-C193TBKT-5A.pdf" H 11250 3325 60  0001 C CNN
+F 4 "0.06102 @ 6000" H 9475 1475 60  0001 C CNN "Cost"
+F 5 "8 Sept 2016" H 9575 1575 60  0001 C CNN "Date Created"
+F 6 "8 Sept 2016" H 9675 1675 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 9775 1775 60  0001 C CNN "Designer"
+F 8 "0.55mm" H 9875 1875 60  0001 C CNN "Height"
+F 9 "Yes" H 9975 1975 60  0001 C CNN "RhoS?"
+F 10 "Lite-On Inc" H 10075 2075 60  0001 C CNN "MFR"
+F 11 "LTST-C193TBKT-5A" H 10175 2175 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 10275 2275 60  0001 C CNN "Mounting"
+F 13 "2" H 10375 2375 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10475 2475 60  0001 C CNN "Status"
+F 15 "N/A" H 10575 2575 60  0001 C CNN "Tolerance"
+F 16 "0603 LED" H 10675 2675 60  0001 C CNN "Type"
+F 17 "2.8V Forward Voltage" H 10775 2775 60  0001 C CNN "Voltage"
+F 18 "N/A" H 10875 2875 60  0001 C CNN "Wattage"
+F 19 "N/A" H 10975 2975 60  0001 C CNN "Component-Value"
+F 20 "Blue 470nm LED Indication - Discrete 2.8V 0603 (1608 Metric)" H 11075 3075 60  0001 C CNN "Description"
+	1    9625 1275
 	-1   0    0    1   
 $EndComp
 $Comp
 L RC1005F102CS R9
 U 1 1 57E108CB
-P 6750 5375
-F 0 "R9" V 6725 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 6750 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 6350 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6450 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 8300 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 6650 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 6750 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 6850 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 6950 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 7050 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 7150 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 7250 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 7350 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 7450 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 7550 6825 60  0001 C CNN "Status"
-F 15 "%" H 7650 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 7750 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 7850 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 7950 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 6800 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 8150 7425 60  0001 C CNN "Description"
-	1    6750 5375
+P 10175 1275
+F 0 "R9" V 10150 1400 60  0000 C CNN
+F 1 "RC1005F102CS" H 10175 1125 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 9775 1525 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 9875 1725 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 11725 3225 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 10075 1825 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 10175 1925 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 10275 2025 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 10375 2125 60  0001 C CNN "Height"
+F 9 "Yes" H 10475 2225 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 10575 2325 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 10675 2425 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 10775 2525 60  0001 C CNN "Mounting"
+F 13 "2" H 10875 2625 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 10975 2725 60  0001 C CNN "Status"
+F 15 "%" H 11075 2825 60  0001 C CNN "Tolerance"
+F 16 "passive" H 11175 2925 60  0001 C CNN "Type"
+F 17 "N/A" H 11275 3025 60  0001 C CNN "Voltage"
+F 18 "1/16" H 11375 3125 60  0001 C CNN "Wattage"
+F 19 "1k" V 10225 1400 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 11575 3325 60  0001 C CNN "Description"
+	1    10175 1275
 	-1   0    0    1   
 $EndComp
-Text Label 7050 5375 0    60   ~ 0
+Text Label 10475 1275 0    60   ~ 0
 HEARTBEAT
 $Comp
 L GND #PWR19
 U 1 1 57E11BCD
-P 5950 5375
-F 0 "#PWR19" H 5950 5125 50  0001 C CNN
-F 1 "GND" H 5950 5225 50  0000 C CNN
-F 2 "" H 5950 5375 50  0000 C CNN
-F 3 "" H 5950 5375 50  0000 C CNN
-	1    5950 5375
+P 9375 1275
+F 0 "#PWR19" H 9375 1025 50  0001 C CNN
+F 1 "GND" H 9375 1125 50  0000 C CNN
+F 2 "" H 9375 1275 50  0000 C CNN
+F 3 "" H 9375 1275 50  0000 C CNN
+	1    9375 1275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1408,51 +1408,51 @@ $EndComp
 $Comp
 L RC1005F102CS R19
 U 1 1 57E8DE5F
-P 10725 5375
-F 0 "R19" V 10700 5500 60  0000 C CNN
-F 1 "RC1005F102CS" H 10725 5225 60  0001 C CNN
-F 2 "PCB_Footprints:R0402" H 10325 5625 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 10425 5825 60  0001 C CNN
-F 4 "0.00173 @ 5000" H 12275 7325 60  0001 C CNN "Cost"
-F 5 "5 Sept 2016" H 10625 5925 60  0001 C CNN "Date Created"
-F 6 "5 Sept 2016" H 10725 6025 60  0001 C CNN "Date Modified"
-F 7 "Adam Vadala-Roth" H 10825 6125 60  0001 C CNN "Designer"
-F 8 "0.4mm" H 10925 6225 60  0001 C CNN "Height"
-F 9 "Yes" H 11025 6325 60  0001 C CNN "RHoS?"
-F 10 "Samsung Electro-Mechanics America, Inc." H 11125 6425 60  0001 C CNN "MFR"
-F 11 "RC1005F102CS" H 11225 6525 60  0001 C CNN "MFR#"
-F 12 "SMT/SMD" H 11325 6625 60  0001 C CNN "Mounting"
-F 13 "2" H 11425 6725 60  0001 C CNN "Pin Count#"
-F 14 "Active" H 11525 6825 60  0001 C CNN "Status"
-F 15 "%" H 11625 6925 60  0001 C CNN "Tolerance"
-F 16 "passive" H 11725 7025 60  0001 C CNN "Type"
-F 17 "N/A" H 11825 7125 60  0001 C CNN "Voltage"
-F 18 "1/16" H 11925 7225 60  0001 C CNN "Wattage"
-F 19 "1k" V 10775 5500 60  0000 C CNN "Component-Value"
-F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 12125 7425 60  0001 C CNN "Description"
-	1    10725 5375
+P 11000 4800
+F 0 "R19" V 10975 4925 60  0000 C CNN
+F 1 "RC1005F102CS" H 11000 4650 60  0001 C CNN
+F 2 "PCB_Footprints:R0402" H 10600 5050 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 10700 5250 60  0001 C CNN
+F 4 "0.00173 @ 5000" H 12550 6750 60  0001 C CNN "Cost"
+F 5 "5 Sept 2016" H 10900 5350 60  0001 C CNN "Date Created"
+F 6 "5 Sept 2016" H 11000 5450 60  0001 C CNN "Date Modified"
+F 7 "Adam Vadala-Roth" H 11100 5550 60  0001 C CNN "Designer"
+F 8 "0.4mm" H 11200 5650 60  0001 C CNN "Height"
+F 9 "Yes" H 11300 5750 60  0001 C CNN "RHoS?"
+F 10 "Samsung Electro-Mechanics America, Inc." H 11400 5850 60  0001 C CNN "MFR"
+F 11 "RC1005F102CS" H 11500 5950 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 11600 6050 60  0001 C CNN "Mounting"
+F 13 "2" H 11700 6150 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 11800 6250 60  0001 C CNN "Status"
+F 15 "%" H 11900 6350 60  0001 C CNN "Tolerance"
+F 16 "passive" H 12000 6450 60  0001 C CNN "Type"
+F 17 "N/A" H 12100 6550 60  0001 C CNN "Voltage"
+F 18 "1/16" H 12200 6650 60  0001 C CNN "Wattage"
+F 19 "1k" V 11050 4925 60  0000 C CNN "Component-Value"
+F 20 "RES SMD 1K OHM 1% 1/16W 0402" H 12400 6850 60  0001 C CNN "Description"
+	1    11000 4800
 	0    1    1    0   
 $EndComp
 $Comp
 L CONN_01X20 P1
 U 1 1 57EB6939
-P 1675 2100
-F 0 "P1" H 1753 2141 50  0000 L CNN
-F 1 "CONN_01X20" H 1753 2050 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x20" H 1675 2100 50  0001 C CNN
-F 3 "" H 1675 2100 50  0000 C CNN
-	1    1675 2100
+P 1600 1925
+F 0 "P1" H 1575 3000 50  0000 L CNN
+F 1 "CONN_01X20" H 700 1125 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x20" H 1600 1925 50  0001 C CNN
+F 3 "" H 1600 1925 50  0000 C CNN
+	1    1600 1925
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X20 P2
 U 1 1 57EB6B63
-P 2525 2125
-F 0 "P2" H 2603 2166 50  0000 L CNN
-F 1 "CONN_01X20" H 2603 2075 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x20" H 2525 2125 50  0001 C CNN
-F 3 "" H 2525 2125 50  0000 C CNN
-	1    2525 2125
+P 2650 1925
+F 0 "P2" H 2725 2925 50  0000 L CNN
+F 1 "CONN_01X20" H 2725 2850 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x20" H 2650 1925 50  0001 C CNN
+F 3 "" H 2650 1925 50  0000 C CNN
+	1    2650 1925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1536,85 +1536,83 @@ F 3 "" H 3750 4325 197 0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1975 6175 1525 6175
+	2875 6275 2425 6275
 Wire Wire Line
-	725  6625 1525 6625
-Connection ~ 1125 6625
+	1625 6725 2425 6725
+Connection ~ 2025 6725
 Wire Wire Line
-	1975 6875 1975 6275
+	2875 6975 2875 6375
 Wire Wire Line
-	575  6875 1975 6875
-Connection ~ 1975 6375
-Connection ~ 1975 6475
-Connection ~ 1975 6575
-Connection ~ 1275 6875
-Connection ~ 1625 6875
-Connection ~ 1975 6875
+	1475 6975 2875 6975
+Connection ~ 2875 6475
+Connection ~ 2875 6575
+Connection ~ 2875 6675
+Connection ~ 2175 6975
+Connection ~ 2525 6975
+Connection ~ 2875 6975
 Wire Wire Line
-	925  7325 1975 7325
-Connection ~ 1625 7325
-Connection ~ 1275 7325
-Connection ~ 1450 7325
-Connection ~ 925  6875
+	1825 7425 2875 7425
+Connection ~ 2525 7425
+Connection ~ 2175 7425
+Connection ~ 2350 7425
+Connection ~ 1825 6975
 Wire Wire Line
-	575  6175 725  6175
-Connection ~ 725  6175
-Connection ~ 1525 6175
+	1475 6275 1625 6275
+Connection ~ 1625 6275
+Connection ~ 2425 6275
 Wire Wire Line
-	3825 5475 4450 5475
-Connection ~ 4450 5475
+	4725 5575 5350 5575
+Connection ~ 5350 5575
 Wire Wire Line
-	5050 5475 5050 5925
+	5950 5175 5950 5625
 Wire Wire Line
-	3825 6275 3825 7325
-Connection ~ 3825 6575
-Connection ~ 3825 6375
-Connection ~ 3825 6475
-Connection ~ 3825 6275
+	4725 6375 4725 7425
+Connection ~ 4725 6675
+Connection ~ 4725 6475
+Connection ~ 4725 6575
+Connection ~ 4725 6375
 Wire Wire Line
-	3825 5925 4100 5925
+	4725 6025 5000 6025
 Wire Wire Line
-	4100 5925 4100 6275
+	5000 6025 5000 6375
 Wire Wire Line
-	4100 6275 3825 6275
+	5000 6375 4725 6375
 Wire Wire Line
-	3825 5575 4225 5575
+	4725 5675 5125 5675
 Wire Wire Line
-	4225 5575 4225 6200
+	5125 5675 5125 6300
+Connection ~ 5125 6300
 Wire Wire Line
-	4225 6200 5050 6200
-Connection ~ 4225 6200
+	5125 6900 5125 7425
 Wire Wire Line
-	4225 6800 4225 7325
+	1650 5900 1850 5900
 Wire Wire Line
-	750  5800 950  5800
+	1850 5900 1850 5800
 Wire Wire Line
-	950  5800 950  5700
+	1850 5800 2100 5800
 Wire Wire Line
-	950  5700 1200 5700
+	2100 5800 2100 5900
 Wire Wire Line
-	1200 5700 1200 5800
+	2100 5900 2300 5900
+Connection ~ 1850 5800
+Connection ~ 1975 5800
+Connection ~ 2100 5800
 Wire Wire Line
-	1200 5800 1400 5800
-Connection ~ 950  5700
-Connection ~ 1075 5700
-Connection ~ 1200 5700
+	2250 5450 2675 5450
 Wire Wire Line
-	1350 5350 1775 5350
+	2675 5450 2675 5725
 Wire Wire Line
-	1775 5350 1775 5625
+	2675 5725 2875 5725
 Wire Wire Line
-	1775 5625 1975 5625
+	2875 5200 2875 5575
 Wire Wire Line
-	1975 5100 1975 5475
+	1650 5200 2875 5200
 Wire Wire Line
-	750  5100 1975 5100
+	1700 5450 1650 5450
 Wire Wire Line
-	800  5350 750  5350
-Wire Wire Line
-	750  5350 750  5100
-Connection ~ 750  5350
-Connection ~ 1400 5350
+	1650 5450 1650 5200
+Connection ~ 1650 5450
+Connection ~ 2300 5450
 Wire Wire Line
 	6475 3850 6675 3850
 Wire Wire Line
@@ -1629,12 +1627,12 @@ Wire Wire Line
 	6675 4450 7025 4450
 Connection ~ 6850 4450
 Wire Wire Line
-	1975 5850 1725 5850
+	2875 5950 2625 5950
 Wire Wire Line
-	1075 4675 4075 4675
+	1975 4775 4975 4775
 Wire Wire Line
-	4075 4675 4075 5475
-Connection ~ 4075 5475
+	4975 4775 4975 5575
+Connection ~ 4975 5575
 Wire Wire Line
 	7575 2550 6475 2550
 Wire Wire Line
@@ -1671,28 +1669,10 @@ Connection ~ 10900 3400
 Connection ~ 11000 3400
 Connection ~ 10225 3650
 Wire Wire Line
-	10425 4450 8700 4450
+	6025 5575 5950 5575
+Connection ~ 5950 5575
 Wire Wire Line
-	8700 4450 8700 3350
-Wire Wire Line
-	8700 3350 6475 3350
-Wire Wire Line
-	6475 3450 8600 3450
-Wire Wire Line
-	8600 3450 8600 4550
-Wire Wire Line
-	8600 4550 10425 4550
-Wire Wire Line
-	10425 4775 5275 4775
-Wire Wire Line
-	5275 4775 5275 6075
-Wire Wire Line
-	5275 6075 3825 6075
-Wire Wire Line
-	5125 5875 5050 5875
-Connection ~ 5050 5875
-Wire Wire Line
-	5050 5925 4450 5925
+	5950 5625 5350 5625
 Wire Wire Line
 	9350 2750 9350 3100
 Connection ~ 9350 2750
@@ -1709,22 +1689,16 @@ Wire Wire Line
 Connection ~ 9200 2850
 Wire Wire Line
 	9050 3500 9200 3500
-Wire Wire Line
-	10425 4650 8475 4650
-Wire Wire Line
-	8475 4650 8475 3550
-Wire Wire Line
-	8475 3550 6475 3550
 Connection ~ 9125 3500
 Wire Wire Line
-	8300 5875 8225 5875
+	8575 5300 8500 5300
 Wire Wire Line
-	8225 5875 8225 6175
+	8500 5300 8500 5600
 Wire Wire Line
-	8225 6175 8300 6175
+	8500 5600 8575 5600
 Wire Wire Line
-	8300 5975 8225 5975
-Connection ~ 8225 5975
+	8575 5400 8500 5400
+Connection ~ 8500 5400
 Wire Wire Line
 	3900 2750 4625 2750
 Wire Wire Line
@@ -1736,31 +1710,31 @@ Wire Wire Line
 Wire Wire Line
 	6475 1850 7150 1850
 Wire Wire Line
-	9000 5775 9475 5775
+	9275 5200 9750 5200
 Wire Wire Line
-	9475 5775 9475 5675
+	9750 5200 9750 5100
 Wire Wire Line
-	9800 5675 9800 5875
+	10075 5100 10075 5300
 Wire Wire Line
-	9800 5875 9000 5875
+	10075 5300 9275 5300
 Wire Wire Line
-	9000 5975 10125 5975
+	9275 5400 10400 5400
 Wire Wire Line
-	10125 5975 10125 5675
+	10400 5400 10400 5100
 Wire Wire Line
-	9000 6075 10450 6075
+	9275 5500 10725 5500
 Wire Wire Line
-	10450 6075 10450 5675
+	10725 5500 10725 5100
 Wire Wire Line
-	9000 6175 10725 6175
+	9275 5600 11000 5600
 Wire Wire Line
-	8300 5075 10725 5075
+	8575 4500 11000 4500
 Wire Wire Line
-	8300 5075 8300 5775
-Connection ~ 9475 5075
-Connection ~ 9800 5075
-Connection ~ 10125 5075
-Connection ~ 8300 5075
+	8575 4500 8575 5200
+Connection ~ 9750 4500
+Connection ~ 10075 4500
+Connection ~ 10400 4500
+Connection ~ 8575 4500
 Wire Wire Line
 	8025 1150 8325 1150
 Wire Wire Line
@@ -1780,20 +1754,20 @@ Wire Wire Line
 Wire Wire Line
 	9725 3150 10100 3150
 Connection ~ 9725 3150
-Connection ~ 1725 5850
-Connection ~ 8225 6175
+Connection ~ 2625 5950
+Connection ~ 8500 5600
 Wire Wire Line
-	10225 1650 6475 1650
+	6475 1650 10225 1650
 Wire Wire Line
 	4625 3350 975  3350
 Wire Wire Line
-	7050 5375 7650 5375
+	10475 1275 11075 1275
 Wire Wire Line
 	8900 1375 8900 1650
 Connection ~ 8900 1650
-Connection ~ 10450 5075
+Connection ~ 10725 4500
 Wire Wire Line
-	10725 6175 10725 5675
+	11000 5600 11000 5100
 NoConn ~ 3500 3725
 NoConn ~ 3500 3925
 NoConn ~ 3500 4125
@@ -1801,87 +1775,452 @@ NoConn ~ 3500 4325
 $Comp
 L GND #PWR?
 U 1 1 57EDF5CF
-P 1475 3050
-F 0 "#PWR?" H 1475 2800 50  0001 C CNN
-F 1 "GND" H 1475 2900 50  0000 C CNN
-F 2 "" H 1475 3050 50  0000 C CNN
-F 3 "" H 1475 3050 50  0000 C CNN
-	1    1475 3050
+P 1400 2875
+F 0 "#PWR?" H 1400 2625 50  0001 C CNN
+F 1 "GND" H 1400 2725 50  0000 C CNN
+F 2 "" H 1400 2875 50  0000 C CNN
+F 3 "" H 1400 2875 50  0000 C CNN
+	1    1400 2875
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 57EDFD82
-P 2325 3075
-F 0 "#PWR?" H 2325 2825 50  0001 C CNN
-F 1 "GND" H 2325 2925 50  0000 C CNN
-F 2 "" H 2325 3075 50  0000 C CNN
-F 3 "" H 2325 3075 50  0000 C CNN
-	1    2325 3075
+P 2450 2875
+F 0 "#PWR?" H 2450 2625 50  0001 C CNN
+F 1 "GND" H 2450 2725 50  0000 C CNN
+F 2 "" H 2450 2875 50  0000 C CNN
+F 3 "" H 2450 2875 50  0000 C CNN
+	1    2450 2875
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 57EDFE20
-P 2175 1175
-F 0 "#PWR?" H 2175 925 50  0001 C CNN
-F 1 "GND" H 2175 1025 50  0000 C CNN
-F 2 "" H 2175 1175 50  0000 C CNN
-F 3 "" H 2175 1175 50  0000 C CNN
-	1    2175 1175
+P 2550 725
+F 0 "#PWR?" H 2550 475 50  0001 C CNN
+F 1 "GND" H 2550 575 50  0000 C CNN
+F 2 "" H 2550 725 50  0000 C CNN
+F 3 "" H 2550 725 50  0000 C CNN
+	1    2550 725 
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 57EE05A2
-P 1050 1150
-F 0 "#PWR?" H 1050 900 50  0001 C CNN
-F 1 "GND" H 1050 1000 50  0000 C CNN
-F 2 "" H 1050 1150 50  0000 C CNN
-F 3 "" H 1050 1150 50  0000 C CNN
-	1    1050 1150
+P 5300 4325
+F 0 "#PWR?" H 5300 4075 50  0001 C CNN
+F 1 "GND" H 5300 4175 50  0000 C CNN
+F 2 "" H 5300 4325 50  0000 C CNN
+F 3 "" H 5300 4325 50  0000 C CNN
+	1    5300 4325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2325 1175 2175 1175
+	5400 4425 5400 4550
 Wire Wire Line
-	1050 1150 1475 1150
+	5400 4550 5175 4550
 Wire Wire Line
-	1475 1250 1150 1250
-Wire Wire Line
-	1150 1250 1150 1375
-Wire Wire Line
-	1150 1375 925  1375
-Wire Wire Line
-	925  1375 925  1075
-Wire Wire Line
-	2325 1275 2250 1275
-Wire Wire Line
-	2250 1275 2250 1375
-Wire Wire Line
-	2250 1375 2100 1375
-Wire Wire Line
-	2100 1375 2100 1050
+	5175 4550 5175 4250
 $Comp
 L +3.3V #PWR?
 U 1 1 57EE1246
-P 925 1075
-F 0 "#PWR?" H 925 925 50  0001 C CNN
-F 1 "+3.3V" H 925 1215 50  0000 C CNN
-F 2 "" H 925 1075 50  0000 C CNN
-F 3 "" H 925 1075 50  0000 C CNN
-	1    925  1075
+P 5175 4250
+F 0 "#PWR?" H 5175 4100 50  0001 C CNN
+F 1 "+3.3V" H 5175 4390 50  0000 C CNN
+F 2 "" H 5175 4250 50  0000 C CNN
+F 3 "" H 5175 4250 50  0000 C CNN
+	1    5175 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 57EE1AEF
-P 2100 1050
-F 0 "#PWR?" H 2100 900 50  0001 C CNN
-F 1 "+3.3V" H 2100 1190 50  0000 C CNN
-F 2 "" H 2100 1050 50  0000 C CNN
-F 3 "" H 2100 1050 50  0000 C CNN
-	1    2100 1050
+P 2450 3250
+F 0 "#PWR?" H 2450 3100 50  0001 C CNN
+F 1 "+3.3V" H 2450 3390 50  0000 C CNN
+F 2 "" H 2450 3250 50  0000 C CNN
+F 3 "" H 2450 3250 50  0000 C CNN
+	1    2450 3250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3925 1550 4625 1550
+Wire Wire Line
+	4625 1450 3950 1450
+Wire Wire Line
+	5125 6300 5500 6300
+Wire Wire Line
+	4625 1650 3925 1650
+Wire Wire Line
+	4625 1750 3925 1750
+Wire Wire Line
+	6475 3350 7125 3350
+Wire Wire Line
+	6475 3450 7125 3450
+Wire Wire Line
+	6475 3550 7125 3550
+Text Label 6600 3350 0    60   ~ 0
+PC10
+Text Label 6600 3450 0    60   ~ 0
+PC11
+Text Label 6600 3550 0    60   ~ 0
+PC12
+Text Label 1225 1175 0    60   ~ 0
+PC10
+Text Label 1225 1275 0    60   ~ 0
+PC11
+Text Label 1225 1375 0    60   ~ 0
+PC12
+$Comp
+L GND #PWR?
+U 1 1 57EF642A
+P 5350 6025
+F 0 "#PWR?" H 5350 5775 50  0001 C CNN
+F 1 "GND" H 5350 5875 50  0000 C CNN
+F 2 "" H 5350 6025 50  0000 C CNN
+F 3 "" H 5350 6025 50  0000 C CNN
+	1    5350 6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 6175 5225 6175
+Wire Wire Line
+	5225 6175 5225 6225
+Wire Wire Line
+	5225 6225 5725 6225
+Text Label 5525 6225 0    60   ~ 0
+PD2
+Text Label 1225 1475 0    60   ~ 0
+PD2
+Wire Wire Line
+	6475 1950 6900 1950
+Wire Wire Line
+	6475 2050 6925 2050
+Wire Wire Line
+	6925 2050 6925 2025
+Wire Wire Line
+	6475 2150 6925 2150
+Wire Wire Line
+	6475 2250 6925 2250
+Wire Wire Line
+	6475 2350 6925 2350
+Text Label 6550 2350 0    60   ~ 0
+PB9
+Text Label 6550 2250 0    60   ~ 0
+PB8
+Text Label 6550 2150 0    60   ~ 0
+PB7
+Text Label 6550 2050 0    60   ~ 0
+PB6
+Text Label 6550 1950 0    60   ~ 0
+PB5
+Text Label 1225 1975 0    60   ~ 0
+PB9
+Text Label 1225 1875 0    60   ~ 0
+PB8
+Text Label 1225 1775 0    60   ~ 0
+PB7
+Text Label 1225 1675 0    60   ~ 0
+PB6
+Text Label 1225 1575 0    60   ~ 0
+PB5
+$Comp
+L +3.3V #PWR?
+U 1 1 57EFBBDD
+P 2400 775
+F 0 "#PWR?" H 2400 625 50  0001 C CNN
+F 1 "+3.3V" H 2400 915 50  0000 C CNN
+F 2 "" H 2400 775 50  0000 C CNN
+F 3 "" H 2400 775 50  0000 C CNN
+	1    2400 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2775 2350 2775
+Wire Wire Line
+	2350 2775 2350 3250
+Wire Wire Line
+	2350 3250 2450 3250
+Wire Wire Line
+	1400 2775 1300 2775
+Wire Wire Line
+	1300 2775 1300 3275
+Wire Wire Line
+	1300 3275 1400 3275
+$Comp
+L +3.3V #PWR?
+U 1 1 57EFCD51
+P 1400 3275
+F 0 "#PWR?" H 1400 3125 50  0001 C CNN
+F 1 "+3.3V" H 1400 3415 50  0000 C CNN
+F 2 "" H 1400 3275 50  0000 C CNN
+F 3 "" H 1400 3275 50  0000 C CNN
+	1    1400 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 1850 4050 1850
+Wire Wire Line
+	4625 1950 4050 1950
+Wire Wire Line
+	4625 2050 4050 2050
+Wire Wire Line
+	4625 2150 4050 2150
+Wire Wire Line
+	4625 3550 4075 3550
+Wire Wire Line
+	4075 3650 4625 3650
+Text Label 4250 1850 0    60   ~ 0
+PA4
+Text Label 4250 1950 0    60   ~ 0
+PA5
+Text Label 4250 2050 0    60   ~ 0
+PA6
+Text Label 4250 2150 0    60   ~ 0
+PA7
+Text Label 4200 3550 0    60   ~ 0
+PC4
+Text Label 4200 3650 0    60   ~ 0
+PC5
+Wire Wire Line
+	2450 2175 2200 2175
+Wire Wire Line
+	2450 2275 2200 2275
+Wire Wire Line
+	2450 2375 2200 2375
+Wire Wire Line
+	2450 2475 2200 2475
+Text Label 2250 2475 0    60   ~ 0
+PA6
+Text Label 2250 2375 0    60   ~ 0
+PA7
+Wire Wire Line
+	2450 2575 2200 2575
+Text Label 2250 2275 0    60   ~ 0
+PC4
+Text Label 2250 2175 0    60   ~ 0
+PC5
+Wire Wire Line
+	6475 2450 6925 2450
+Text Label 6550 2450 0    60   ~ 0
+PB10
+Text Label 2250 2075 0    60   ~ 0
+PB10
+Wire Wire Line
+	2450 2075 2200 2075
+Wire Wire Line
+	4625 3750 4325 3750
+Wire Wire Line
+	4625 3850 4325 3850
+Text Label 4400 3750 0    60   ~ 0
+PC6
+Text Label 4400 3850 0    60   ~ 0
+PC7
+Wire Wire Line
+	2450 1875 2200 1875
+Wire Wire Line
+	2450 1975 2200 1975
+Text Label 2250 1875 0    60   ~ 0
+PC6
+Text Label 2250 1975 0    60   ~ 0
+PC7
+Wire Wire Line
+	6475 3150 6825 3150
+Wire Wire Line
+	6475 3250 6825 3250
+Text Label 6550 3250 0    60   ~ 0
+PC9
+Text Label 6550 3150 0    60   ~ 0
+PC8
+Wire Wire Line
+	2200 1675 2450 1675
+Wire Wire Line
+	2200 1775 2450 1775
+Text Label 2250 1775 0    60   ~ 0
+PC9
+Text Label 2250 1675 0    60   ~ 0
+PC8
+Wire Wire Line
+	4625 2250 4050 2250
+Wire Wire Line
+	4625 2350 4050 2350
+Wire Wire Line
+	4625 2450 4050 2450
+Wire Wire Line
+	4050 2450 4050 2425
+Wire Wire Line
+	4625 2550 4050 2550
+Wire Wire Line
+	4625 2650 4050 2650
+Text Label 4250 2250 0    60   ~ 0
+PA8
+Text Label 4250 2350 0    60   ~ 0
+PA9
+Text Label 4250 2450 0    60   ~ 0
+PA10
+Text Label 4250 2550 0    60   ~ 0
+PA11
+Text Label 4250 2650 0    60   ~ 0
+PA12
+Wire Wire Line
+	2450 1175 2200 1175
+Wire Wire Line
+	2450 1275 2200 1275
+Wire Wire Line
+	2450 1375 2200 1375
+Wire Wire Line
+	2450 1475 2200 1475
+Wire Wire Line
+	2450 1575 2200 1575
+Text Label 2275 1175 0    60   ~ 0
+PA8
+Text Label 2250 1275 0    60   ~ 0
+PA9
+Text Label 2250 1375 0    60   ~ 0
+PA10
+Text Label 2250 1475 0    60   ~ 0
+PA11
+Text Label 2250 1575 0    60   ~ 0
+PA12
+Wire Wire Line
+	2450 975  2450 725 
+Wire Wire Line
+	2450 725  2550 725 
+Wire Wire Line
+	2400 775  2400 1075
+Wire Wire Line
+	2400 1075 2450 1075
+Wire Wire Line
+	4625 3150 4325 3150
+Wire Wire Line
+	4625 3250 4325 3250
+Wire Wire Line
+	4625 3450 4325 3450
+Text Label 4400 3450 0    60   ~ 0
+PC3
+Text Label 4400 3250 0    60   ~ 0
+PC1
+Text Label 4400 3150 0    60   ~ 0
+PC0
+Text Label 1225 2175 0    60   ~ 0
+PC1
+Text Label 1225 2075 0    60   ~ 0
+PC0
+Text Label 1225 2275 0    60   ~ 0
+PC3
+Wire Wire Line
+	6475 3650 7125 3650
+Wire Wire Line
+	7125 3650 7125 3625
+Wire Wire Line
+	6475 1550 6975 1550
+Wire Wire Line
+	6975 1550 6975 1525
+Wire Wire Line
+	6475 1450 6900 1450
+Text Label 6600 3650 0    60   ~ 0
+PC13
+Text Label 1225 2375 0    60   ~ 0
+PC13
+Text Label 6525 1450 0    60   ~ 0
+PB0
+Text Label 6525 1550 0    60   ~ 0
+PB1
+Text Label 1225 2575 0    60   ~ 0
+PB1
+Text Label 1225 2475 0    60   ~ 0
+PB0
+Wire Wire Line
+	2450 2675 2275 2675
+Wire Wire Line
+	2275 2675 2275 2875
+$Comp
+L GND #PWR?
+U 1 1 57EEC925
+P 2275 2875
+F 0 "#PWR?" H 2275 2625 50  0001 C CNN
+F 1 "GND" H 2275 2725 50  0000 C CNN
+F 2 "" H 2275 2875 50  0000 C CNN
+F 3 "" H 2275 2875 50  0000 C CNN
+	1    2275 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2675 1200 2675
+Wire Wire Line
+	1200 2675 1200 3100
+$Comp
+L GND #PWR?
+U 1 1 57EED0C8
+P 1200 3100
+F 0 "#PWR?" H 1200 2850 50  0001 C CNN
+F 1 "GND" H 1200 2950 50  0000 C CNN
+F 2 "" H 1200 3100 50  0000 C CNN
+F 3 "" H 1200 3100 50  0000 C CNN
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+Text Label 2250 2575 0    60   ~ 0
+PA5
+$Comp
+L GND #PWR?
+U 1 1 57EF36B3
+P 1500 725
+F 0 "#PWR?" H 1500 475 50  0001 C CNN
+F 1 "GND" H 1500 575 50  0000 C CNN
+F 2 "" H 1500 725 50  0000 C CNN
+F 3 "" H 1500 725 50  0000 C CNN
+	1    1500 725 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 57EF36B9
+P 1350 775
+F 0 "#PWR?" H 1350 625 50  0001 C CNN
+F 1 "+3.3V" H 1350 915 50  0000 C CNN
+F 2 "" H 1350 775 50  0000 C CNN
+F 3 "" H 1350 775 50  0000 C CNN
+	1    1350 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 975  1400 725 
+Wire Wire Line
+	1400 725  1500 725 
+Wire Wire Line
+	1350 775  1350 1075
+Wire Wire Line
+	1350 1075 1400 1075
+Wire Wire Line
+	1200 2375 1400 2375
+Wire Wire Line
+	1200 2475 1400 2475
+Wire Wire Line
+	1200 2175 1400 2175
+Wire Wire Line
+	1200 2275 1400 2275
+Wire Wire Line
+	1200 1975 1400 1975
+Wire Wire Line
+	1200 2075 1400 2075
+Wire Wire Line
+	1200 1775 1400 1775
+Wire Wire Line
+	1200 1875 1400 1875
+Wire Wire Line
+	1200 1675 1400 1675
+Wire Wire Line
+	1200 1475 1400 1475
+Wire Wire Line
+	1200 1575 1400 1575
+Wire Wire Line
+	1200 1275 1400 1275
+Wire Wire Line
+	1200 1375 1400 1375
+Wire Wire Line
+	1200 1175 1400 1175
+Wire Wire Line
+	1200 2575 1400 2575
 $EndSCHEMATC
