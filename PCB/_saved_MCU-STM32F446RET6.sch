@@ -2021,9 +2021,9 @@ Wire Wire Line
 	2450 1875 2200 1875
 Wire Wire Line
 	2450 1975 2200 1975
-Text Label 2250 1775 0    60   ~ 0
+Text Label 2250 1975 0    60   ~ 0
 PC6
-Text Label 2250 1675 0    60   ~ 0
+Text Label 2250 1875 0    60   ~ 0
 PC7
 Wire Wire Line
 	6475 3150 6825 3150
@@ -2037,9 +2037,9 @@ Wire Wire Line
 	2200 1675 2450 1675
 Wire Wire Line
 	2200 1775 2450 1775
-Text Label 2250 1875 0    60   ~ 0
+Text Label 2250 1675 0    60   ~ 0
 PC9
-Text Label 2250 1975 0    60   ~ 0
+Text Label 2250 1775 0    60   ~ 0
 PC8
 Wire Wire Line
 	4625 2250 4050 2250
