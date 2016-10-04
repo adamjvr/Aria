@@ -54,9 +54,9 @@ Text HLabel 7875 3200 2    60   Input ~ 0
 ESP_PGM_MODE
 Text HLabel 1075 3350 0    60   Input ~ 0
 ESP_ST_RST
-Text HLabel 10375 4350 2    60   Input ~ 0
-ESPTOST_BOOT0
 Text HLabel 10375 4250 2    60   Input ~ 0
+ESPTOST_BOOT0
+Text HLabel 10375 4350 2    60   Input ~ 0
 ESPTOST_BOOT1
 $Comp
 L GND #PWR14
