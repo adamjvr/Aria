@@ -11,3 +11,10 @@ ARM Cortex M4F + WiFi + MPPT Solar Battery Powered module, mBed and Arduino Comp
 
 Aria 0.1a PCB
 ![Aria 0.1a KiCAD PCB](/IMG/Aria2D.png)
+Aria 0.1a 3D Render of PCB
+Top
+![Aria 0.1a KiCAD 3D Top](/IMG/Aria3DTop.png)
+Bottom
+![Aria 0.1a KiCAD 3D Bottom](/IMG/Aria3DBottom.png)
+Aria 0.1a ESP-12E Version PCB
+![Aria 0.1a ESP-12E KiCAD PCB](/IMG/Aria2DESP12.png)
