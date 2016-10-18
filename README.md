@@ -9,6 +9,10 @@ ARM Cortex M4F + WiFi + MPPT Solar Battery Powered module, mBed and Arduino Comp
 - Lithium Ion Battery Power
 - MPPT Solar battery charging
 - USB bus power for desktop development
+- Over the Air Programming
+- Low power
+- 2 Year Battery Life w/Single Cell Lithium Battery
+
 
 Aria 0.1a PCB
 ![Aria 0.1a KiCAD PCB](/IMG/Aria2D.png)
