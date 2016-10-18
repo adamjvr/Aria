@@ -2,6 +2,7 @@
 ARM Cortex M4F + WiFi + MPPT Solar Battery Powered module, mBed and Arduino Compatible hardware development platform.
 - ARM Cortex M4F 180MHZ STM32F446RET6
 - ESP8285 WiFi SoC w/ PCB Antenna
+- WiFi
 - USB 2.0 Connectivity
 - Plenty or GPIO/Serial via the STM32
 - Over the air programming and updating
