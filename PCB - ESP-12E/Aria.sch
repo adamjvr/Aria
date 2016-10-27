@@ -83,8 +83,8 @@ Wire Wire Line
 	6125 2100 4825 2100
 Wire Wire Line
 	4825 2200 6125 2200
-Text Notes 5125 1150 0    200  ~ 40
-Aria 0.1a
+Text Notes 4025 1200 0    200  ~ 40
+Aria ESP-12E 0.1a
 $Sheet
 S 6125 2000 2650 3375
 U 57E9EA74

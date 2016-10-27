@@ -738,4 +738,32 @@ Text Label 6425 5200 0    60   ~ 0
 BAT_VOLT
 Text HLabel 975  5200 0    60   Output ~ 0
 BAT_VOLT
+$Comp
+L CUS-12TB SW?
+U 1 1 58127F98
+P 3450 4050
+F 0 "SW?" V 3447 3772 60  0000 R CNN
+F 1 "CUS-12TB" V 3341 3772 60  0000 R CNN
+F 2 "PCB_Footprints:CUS-12TB" H 2700 5025 60  0001 C CNN
+F 3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf" H 2800 5125 60  0001 C CNN
+F 4 "0.45329 @ 1000" H 2900 5225 60  0001 C CNN "Cost"
+F 5 "24 Oct 2016" H 3000 5325 60  0001 C CNN "Date Created"
+F 6 "24 Oct 2016" H 3100 5425 60  0001 C CNN "Date Modifed"
+F 7 "Adam Vadala-Roth" H 3200 5525 60  0001 C CNN "Designer"
+F 8 "2mm" H 3300 5625 60  0001 C CNN "Height"
+F 9 "Yes" H 3400 5725 60  0001 C CNN "RHoS?"
+F 10 "Copal Electronics Inc." H 3500 5825 60  0001 C CNN "MFR"
+F 11 "CUS-12TB" H 3600 5925 60  0001 C CNN "MFR#"
+F 12 "SMT/SMD" H 3700 6025 60  0001 C CNN "Mounting"
+F 13 "3" H 3800 6125 60  0001 C CNN "Pin Count#"
+F 14 "Active" H 3900 6225 60  0001 C CNN "Status"
+F 15 "N/A" H 4000 6325 60  0001 C CNN "Tolerance"
+F 16 "SMT Slider switch SPDT" H 4100 6425 60  0001 C CNN "Type"
+F 17 "50V 100mA" H 4200 6525 60  0001 C CNN "Voltage"
+F 18 "N/A" H 4750 6525 60  0001 C CNN "Wattage"
+F 19 "N/A" H 3150 4925 60  0001 C CNN "Componen-Value"
+F 20 "Slide Switch SPDT Surface Mount, Right Angle" H 4950 6725 60  0001 C CNN "Description"
+	1    3450 4050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
